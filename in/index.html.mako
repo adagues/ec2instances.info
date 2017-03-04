@@ -5,7 +5,7 @@
 <%inherit file="base.mako" />
 
     <%block name="header">
-    <h1>EC2Instances.info <small>Easy Amazon EC2 Instance Comparison</small></h1>
+    <h1>COREXPERT EC2 Instances Info <small>Easy Amazon EC2 Instance Comparison</small></h1>
     </%block>
 
     <div class="row" id="menu">
