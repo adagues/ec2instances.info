@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 from lxml import etree
-import urllib3
+import urllib2
 import re
 import json
 import locale
 
-urllib3.disable_warnings()
+urllib2.disable_warnings()
 
 # Following advice from https://stackoverflow.com/a/1779324/216138
 # The locale must be installed in the system, and it must be one where ',' is
