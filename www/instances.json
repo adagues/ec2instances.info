@@ -6891,9 +6891,12 @@
       "us-gov-west-1": {
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.006",
+            "yrTerm3Convertible.partialUpfront": "0.006",
             "yrTerm1Standard.partialUpfront": "0.007",
-            "yrTerm1Standard.allUpfront": "0.007",
+            "yrTerm3Convertible.noUpfront": "0.007",
             "yrTerm3Standard.allUpfront": "0.005",
+            "yrTerm1Standard.allUpfront": "0.007",
             "yrTerm3Standard.partialUpfront": "0.006",
             "yrTerm1Standard.noUpfront": "0.008"
           },
@@ -6901,9 +6904,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.004",
+            "yrTerm3Convertible.partialUpfront": "0.004",
             "yrTerm1Standard.partialUpfront": "0.005",
-            "yrTerm1Standard.allUpfront": "0.004",
+            "yrTerm3Convertible.noUpfront": "0.005",
             "yrTerm3Standard.allUpfront": "0.003",
+            "yrTerm1Standard.allUpfront": "0.004",
             "yrTerm3Standard.partialUpfront": "0.004",
             "yrTerm1Standard.noUpfront": "0.005"
           },
@@ -7464,9 +7470,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.040",
+            "yrTerm3Convertible.partialUpfront": "0.041",
             "yrTerm1Standard.partialUpfront": "0.042",
-            "yrTerm1Standard.allUpfront": "0.041",
+            "yrTerm3Convertible.noUpfront": "0.048",
             "yrTerm3Standard.allUpfront": "0.036",
+            "yrTerm1Standard.allUpfront": "0.041",
             "yrTerm3Standard.partialUpfront": "0.038",
             "yrTerm1Standard.noUpfront": "0.049"
           },
@@ -7474,9 +7483,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.012",
+            "yrTerm3Convertible.partialUpfront": "0.013",
             "yrTerm1Standard.partialUpfront": "0.014",
-            "yrTerm1Standard.allUpfront": "0.013",
+            "yrTerm3Convertible.noUpfront": "0.015",
             "yrTerm3Standard.allUpfront": "0.010",
+            "yrTerm1Standard.allUpfront": "0.013",
             "yrTerm3Standard.partialUpfront": "0.011",
             "yrTerm1Standard.noUpfront": "0.016"
           },
@@ -7484,9 +7496,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.008",
+            "yrTerm3Convertible.partialUpfront": "0.008",
             "yrTerm1Standard.partialUpfront": "0.009",
-            "yrTerm1Standard.allUpfront": "0.009",
+            "yrTerm3Convertible.noUpfront": "0.010",
             "yrTerm3Standard.allUpfront": "0.006",
+            "yrTerm1Standard.allUpfront": "0.009",
             "yrTerm3Standard.partialUpfront": "0.006",
             "yrTerm1Standard.noUpfront": "0.011"
           },
@@ -8100,9 +8115,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.080",
+            "yrTerm3Convertible.partialUpfront": "0.082",
             "yrTerm1Standard.partialUpfront": "0.084",
-            "yrTerm1Standard.allUpfront": "0.082",
+            "yrTerm3Convertible.noUpfront": "0.096",
             "yrTerm3Standard.allUpfront": "0.070",
+            "yrTerm1Standard.allUpfront": "0.082",
             "yrTerm3Standard.partialUpfront": "0.075",
             "yrTerm1Standard.noUpfront": "0.098"
           },
@@ -8110,9 +8128,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.026",
+            "yrTerm3Convertible.partialUpfront": "0.026",
             "yrTerm1Standard.partialUpfront": "0.028",
-            "yrTerm1Standard.allUpfront": "0.028",
+            "yrTerm3Convertible.noUpfront": "0.031",
             "yrTerm3Standard.allUpfront": "0.019",
+            "yrTerm1Standard.allUpfront": "0.028",
             "yrTerm3Standard.partialUpfront": "0.020",
             "yrTerm1Standard.noUpfront": "0.033"
           },
@@ -8120,9 +8141,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.017",
+            "yrTerm3Convertible.partialUpfront": "0.017",
             "yrTerm1Standard.partialUpfront": "0.019",
-            "yrTerm1Standard.allUpfront": "0.019",
+            "yrTerm3Convertible.noUpfront": "0.020",
             "yrTerm3Standard.allUpfront": "0.012",
+            "yrTerm1Standard.allUpfront": "0.019",
             "yrTerm3Standard.partialUpfront": "0.013",
             "yrTerm1Standard.noUpfront": "0.022"
           },
@@ -8736,9 +8760,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.125",
+            "yrTerm3Convertible.partialUpfront": "0.128",
             "yrTerm1Standard.partialUpfront": "0.132",
-            "yrTerm1Standard.allUpfront": "0.129",
+            "yrTerm3Convertible.noUpfront": "0.153",
             "yrTerm3Standard.allUpfront": "0.114",
+            "yrTerm1Standard.allUpfront": "0.129",
             "yrTerm3Standard.partialUpfront": "0.117",
             "yrTerm1Standard.noUpfront": "0.157"
           },
@@ -8746,9 +8773,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.051",
+            "yrTerm3Convertible.partialUpfront": "0.052",
             "yrTerm1Standard.partialUpfront": "0.056",
-            "yrTerm1Standard.allUpfront": "0.055",
+            "yrTerm3Convertible.noUpfront": "0.060",
             "yrTerm3Standard.allUpfront": "0.037",
+            "yrTerm1Standard.allUpfront": "0.055",
             "yrTerm3Standard.partialUpfront": "0.040",
             "yrTerm1Standard.noUpfront": "0.064"
           },
@@ -8756,9 +8786,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.033",
+            "yrTerm3Convertible.partialUpfront": "0.034",
             "yrTerm1Standard.partialUpfront": "0.038",
-            "yrTerm1Standard.allUpfront": "0.037",
+            "yrTerm3Convertible.noUpfront": "0.040",
             "yrTerm3Standard.allUpfront": "0.024",
+            "yrTerm1Standard.allUpfront": "0.037",
             "yrTerm3Standard.partialUpfront": "0.026",
             "yrTerm1Standard.noUpfront": "0.044"
           },
@@ -9371,9 +9404,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.200",
+            "yrTerm3Convertible.partialUpfront": "0.204",
             "yrTerm1Standard.partialUpfront": "0.211",
-            "yrTerm1Standard.allUpfront": "0.207",
+            "yrTerm3Convertible.noUpfront": "0.246",
             "yrTerm3Standard.allUpfront": "0.177",
+            "yrTerm1Standard.allUpfront": "0.207",
             "yrTerm3Standard.partialUpfront": "0.188",
             "yrTerm1Standard.noUpfront": "0.255"
           },
@@ -9381,9 +9417,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.094",
+            "yrTerm3Convertible.partialUpfront": "0.096",
             "yrTerm1Standard.partialUpfront": "0.103",
-            "yrTerm1Standard.allUpfront": "0.101",
+            "yrTerm3Convertible.noUpfront": "0.107",
             "yrTerm3Standard.allUpfront": "0.075",
+            "yrTerm1Standard.allUpfront": "0.101",
             "yrTerm3Standard.partialUpfront": "0.079",
             "yrTerm1Standard.noUpfront": "0.116"
           },
@@ -9391,9 +9430,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.067",
+            "yrTerm3Convertible.partialUpfront": "0.068",
             "yrTerm1Standard.partialUpfront": "0.075",
-            "yrTerm1Standard.allUpfront": "0.074",
+            "yrTerm3Convertible.noUpfront": "0.079",
             "yrTerm3Standard.allUpfront": "0.049",
+            "yrTerm1Standard.allUpfront": "0.074",
             "yrTerm3Standard.partialUpfront": "0.052",
             "yrTerm1Standard.noUpfront": "0.088"
           },
@@ -10650,7 +10692,7 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "0.471",
+            "yrTerm3Convertible.allUpfront": "0.470",
             "yrTerm3Convertible.partialUpfront": "0.476",
             "yrTerm1Standard.partialUpfront": "0.506",
             "yrTerm3Convertible.noUpfront": "0.523",
@@ -10663,7 +10705,7 @@
         },
         "mswin": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "0.330",
+            "yrTerm3Convertible.allUpfront": "0.329",
             "yrTerm3Convertible.partialUpfront": "0.335",
             "yrTerm1Standard.partialUpfront": "0.365",
             "yrTerm3Convertible.noUpfront": "0.382",
@@ -10676,7 +10718,7 @@
         },
         "linux": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "0.268",
+            "yrTerm3Convertible.allUpfront": "0.267",
             "yrTerm3Convertible.partialUpfront": "0.273",
             "yrTerm1Standard.partialUpfront": "0.303",
             "yrTerm3Convertible.noUpfront": "0.320",
@@ -11424,9 +11466,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.239",
+            "yrTerm3Convertible.partialUpfront": "0.240",
             "yrTerm1Standard.partialUpfront": "0.249",
-            "yrTerm1Standard.allUpfront": "0.247",
+            "yrTerm3Convertible.noUpfront": "0.254",
             "yrTerm3Standard.allUpfront": "0.216",
+            "yrTerm1Standard.allUpfront": "0.247",
             "yrTerm3Standard.partialUpfront": "0.219",
             "yrTerm1Standard.noUpfront": "0.264"
           },
@@ -11434,9 +11479,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.914",
+            "yrTerm3Convertible.partialUpfront": "0.915",
             "yrTerm1Standard.partialUpfront": "0.924",
-            "yrTerm1Standard.allUpfront": "0.922",
+            "yrTerm3Convertible.noUpfront": "0.930",
             "yrTerm3Standard.allUpfront": "0.887",
+            "yrTerm1Standard.allUpfront": "0.922",
             "yrTerm3Standard.partialUpfront": "0.891",
             "yrTerm1Standard.noUpfront": "0.940"
           },
@@ -11444,9 +11492,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.168",
+            "yrTerm3Convertible.partialUpfront": "0.169",
             "yrTerm1Standard.partialUpfront": "0.178",
-            "yrTerm1Standard.allUpfront": "0.176",
+            "yrTerm3Convertible.noUpfront": "0.183",
             "yrTerm3Standard.allUpfront": "0.145",
+            "yrTerm1Standard.allUpfront": "0.176",
             "yrTerm3Standard.partialUpfront": "0.148",
             "yrTerm1Standard.noUpfront": "0.193"
           },
@@ -11454,9 +11505,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.076",
+            "yrTerm3Convertible.partialUpfront": "0.077",
             "yrTerm1Standard.partialUpfront": "0.086",
-            "yrTerm1Standard.allUpfront": "0.084",
+            "yrTerm3Convertible.noUpfront": "0.091",
             "yrTerm3Standard.allUpfront": "0.053",
+            "yrTerm1Standard.allUpfront": "0.084",
             "yrTerm3Standard.partialUpfront": "0.056",
             "yrTerm1Standard.noUpfront": "0.101"
           },
@@ -12251,9 +12305,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.405",
+            "yrTerm3Convertible.partialUpfront": "0.408",
             "yrTerm1Standard.partialUpfront": "0.425",
-            "yrTerm1Standard.allUpfront": "0.422",
+            "yrTerm3Convertible.noUpfront": "0.434",
             "yrTerm3Standard.allUpfront": "0.360",
+            "yrTerm1Standard.allUpfront": "0.422",
             "yrTerm3Standard.partialUpfront": "0.367",
             "yrTerm1Standard.noUpfront": "0.454"
           },
@@ -12261,9 +12318,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.060",
+            "yrTerm3Convertible.partialUpfront": "1.064",
             "yrTerm1Standard.partialUpfront": "1.081",
-            "yrTerm1Standard.allUpfront": "1.077",
+            "yrTerm3Convertible.noUpfront": "1.093",
             "yrTerm3Standard.allUpfront": "1.009",
+            "yrTerm1Standard.allUpfront": "1.077",
             "yrTerm3Standard.partialUpfront": "1.016",
             "yrTerm1Standard.noUpfront": "1.113"
           },
@@ -12271,9 +12331,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.334",
+            "yrTerm3Convertible.partialUpfront": "0.337",
             "yrTerm1Standard.partialUpfront": "0.354",
-            "yrTerm1Standard.allUpfront": "0.351",
+            "yrTerm3Convertible.noUpfront": "0.363",
             "yrTerm3Standard.allUpfront": "0.289",
+            "yrTerm1Standard.allUpfront": "0.351",
             "yrTerm3Standard.partialUpfront": "0.296",
             "yrTerm1Standard.noUpfront": "0.383"
           },
@@ -12281,9 +12344,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.150",
+            "yrTerm3Convertible.partialUpfront": "0.153",
             "yrTerm1Standard.partialUpfront": "0.170",
-            "yrTerm1Standard.allUpfront": "0.167",
+            "yrTerm3Convertible.noUpfront": "0.179",
             "yrTerm3Standard.allUpfront": "0.105",
+            "yrTerm1Standard.allUpfront": "0.167",
             "yrTerm3Standard.partialUpfront": "0.112",
             "yrTerm1Standard.noUpfront": "0.199"
           },
@@ -13078,9 +13144,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.809",
+            "yrTerm3Convertible.partialUpfront": "0.815",
             "yrTerm1Standard.partialUpfront": "0.849",
-            "yrTerm1Standard.allUpfront": "0.842",
+            "yrTerm3Convertible.noUpfront": "0.867",
             "yrTerm3Standard.allUpfront": "0.718",
+            "yrTerm1Standard.allUpfront": "0.842",
             "yrTerm3Standard.partialUpfront": "0.731",
             "yrTerm1Standard.noUpfront": "0.907"
           },
@@ -13088,9 +13157,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.121",
+            "yrTerm3Convertible.partialUpfront": "2.128",
             "yrTerm1Standard.partialUpfront": "2.162",
-            "yrTerm1Standard.allUpfront": "2.154",
+            "yrTerm3Convertible.noUpfront": "2.186",
             "yrTerm3Standard.allUpfront": "2.016",
+            "yrTerm1Standard.allUpfront": "2.154",
             "yrTerm3Standard.partialUpfront": "2.031",
             "yrTerm1Standard.noUpfront": "2.226"
           },
@@ -13098,9 +13170,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.668",
+            "yrTerm3Convertible.partialUpfront": "0.674",
             "yrTerm1Standard.partialUpfront": "0.708",
-            "yrTerm1Standard.allUpfront": "0.701",
+            "yrTerm3Convertible.noUpfront": "0.726",
             "yrTerm3Standard.allUpfront": "0.577",
+            "yrTerm1Standard.allUpfront": "0.701",
             "yrTerm3Standard.partialUpfront": "0.590",
             "yrTerm1Standard.noUpfront": "0.766"
           },
@@ -13108,9 +13183,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.300",
+            "yrTerm3Convertible.partialUpfront": "0.306",
             "yrTerm1Standard.partialUpfront": "0.340",
-            "yrTerm1Standard.allUpfront": "0.333",
+            "yrTerm3Convertible.noUpfront": "0.358",
             "yrTerm3Standard.allUpfront": "0.209",
+            "yrTerm1Standard.allUpfront": "0.333",
             "yrTerm3Standard.partialUpfront": "0.222",
             "yrTerm1Standard.noUpfront": "0.398"
           },
@@ -13905,9 +13983,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.617",
+            "yrTerm3Convertible.partialUpfront": "1.630",
             "yrTerm1Standard.partialUpfront": "1.698",
-            "yrTerm1Standard.allUpfront": "1.684",
+            "yrTerm3Convertible.noUpfront": "1.734",
             "yrTerm3Standard.allUpfront": "1.436",
+            "yrTerm1Standard.allUpfront": "1.684",
             "yrTerm3Standard.partialUpfront": "1.463",
             "yrTerm1Standard.noUpfront": "1.814"
           },
@@ -13915,9 +13996,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "4.242",
+            "yrTerm3Convertible.partialUpfront": "4.256",
             "yrTerm1Standard.partialUpfront": "4.324",
-            "yrTerm1Standard.allUpfront": "4.309",
+            "yrTerm3Convertible.noUpfront": "4.373",
             "yrTerm3Standard.allUpfront": "4.032",
+            "yrTerm1Standard.allUpfront": "4.309",
             "yrTerm3Standard.partialUpfront": "4.062",
             "yrTerm1Standard.noUpfront": "4.453"
           },
@@ -13925,9 +14009,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.335",
+            "yrTerm3Convertible.partialUpfront": "1.348",
             "yrTerm1Standard.partialUpfront": "1.416",
-            "yrTerm1Standard.allUpfront": "1.402",
+            "yrTerm3Convertible.noUpfront": "1.452",
             "yrTerm3Standard.allUpfront": "1.154",
+            "yrTerm1Standard.allUpfront": "1.402",
             "yrTerm3Standard.partialUpfront": "1.181",
             "yrTerm1Standard.noUpfront": "1.532"
           },
@@ -13935,9 +14022,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.599",
+            "yrTerm3Convertible.partialUpfront": "0.612",
             "yrTerm1Standard.partialUpfront": "0.680",
-            "yrTerm1Standard.allUpfront": "0.666",
+            "yrTerm3Convertible.noUpfront": "0.716",
             "yrTerm3Standard.allUpfront": "0.418",
+            "yrTerm1Standard.allUpfront": "0.666",
             "yrTerm3Standard.partialUpfront": "0.445",
             "yrTerm1Standard.noUpfront": "0.796"
           },
@@ -14732,9 +14822,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "4.044",
+            "yrTerm3Convertible.partialUpfront": "4.075",
             "yrTerm1Standard.partialUpfront": "4.245",
-            "yrTerm1Standard.allUpfront": "4.211",
+            "yrTerm3Convertible.noUpfront": "4.335",
             "yrTerm3Standard.allUpfront": "3.589",
+            "yrTerm1Standard.allUpfront": "4.211",
             "yrTerm3Standard.partialUpfront": "3.656",
             "yrTerm1Standard.noUpfront": "4.534"
           },
@@ -14742,9 +14835,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "10.605",
+            "yrTerm3Convertible.partialUpfront": "10.640",
             "yrTerm1Standard.partialUpfront": "10.810",
-            "yrTerm1Standard.allUpfront": "10.772",
+            "yrTerm3Convertible.noUpfront": "10.932",
             "yrTerm3Standard.allUpfront": "10.081",
+            "yrTerm1Standard.allUpfront": "10.772",
             "yrTerm3Standard.partialUpfront": "10.155",
             "yrTerm1Standard.noUpfront": "11.131"
           },
@@ -14752,9 +14848,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "3.340",
+            "yrTerm3Convertible.partialUpfront": "3.371",
             "yrTerm1Standard.partialUpfront": "3.541",
-            "yrTerm1Standard.allUpfront": "3.507",
+            "yrTerm3Convertible.noUpfront": "3.631",
             "yrTerm3Standard.allUpfront": "2.885",
+            "yrTerm1Standard.allUpfront": "3.507",
             "yrTerm3Standard.partialUpfront": "2.952",
             "yrTerm1Standard.noUpfront": "3.830"
           },
@@ -14762,9 +14861,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.500",
+            "yrTerm3Convertible.partialUpfront": "1.531",
             "yrTerm1Standard.partialUpfront": "1.701",
-            "yrTerm1Standard.allUpfront": "1.667",
+            "yrTerm3Convertible.noUpfront": "1.791",
             "yrTerm3Standard.allUpfront": "1.045",
+            "yrTerm1Standard.allUpfront": "1.667",
             "yrTerm3Standard.partialUpfront": "1.112",
             "yrTerm1Standard.noUpfront": "1.990"
           },
@@ -15559,9 +15661,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "6.472",
+            "yrTerm3Convertible.partialUpfront": "6.521",
             "yrTerm1Standard.partialUpfront": "6.793",
-            "yrTerm1Standard.allUpfront": "6.739",
+            "yrTerm3Convertible.noUpfront": "6.938",
             "yrTerm3Standard.allUpfront": "5.742",
+            "yrTerm1Standard.allUpfront": "6.739",
             "yrTerm3Standard.partialUpfront": "5.849",
             "yrTerm1Standard.noUpfront": "7.256"
           },
@@ -15569,9 +15674,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "16.968",
+            "yrTerm3Convertible.partialUpfront": "17.024",
             "yrTerm1Standard.partialUpfront": "17.296",
-            "yrTerm1Standard.allUpfront": "17.235",
+            "yrTerm3Convertible.noUpfront": "17.492",
             "yrTerm3Standard.allUpfront": "16.130",
+            "yrTerm1Standard.allUpfront": "17.235",
             "yrTerm3Standard.partialUpfront": "16.248",
             "yrTerm1Standard.noUpfront": "17.810"
           },
@@ -15579,9 +15687,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "5.345",
+            "yrTerm3Convertible.partialUpfront": "5.394",
             "yrTerm1Standard.partialUpfront": "5.666",
-            "yrTerm1Standard.allUpfront": "5.612",
+            "yrTerm3Convertible.noUpfront": "5.811",
             "yrTerm3Standard.allUpfront": "4.615",
+            "yrTerm1Standard.allUpfront": "5.612",
             "yrTerm3Standard.partialUpfront": "4.722",
             "yrTerm1Standard.noUpfront": "6.129"
           },
@@ -15589,9 +15700,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.401",
+            "yrTerm3Convertible.partialUpfront": "2.450",
             "yrTerm1Standard.partialUpfront": "2.722",
-            "yrTerm1Standard.allUpfront": "2.668",
+            "yrTerm3Convertible.noUpfront": "2.867",
             "yrTerm3Standard.allUpfront": "1.671",
+            "yrTerm1Standard.allUpfront": "2.668",
             "yrTerm3Standard.partialUpfront": "1.778",
             "yrTerm1Standard.noUpfront": "3.185"
           },
@@ -16170,9 +16284,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.135",
+            "yrTerm3Convertible.partialUpfront": "0.148",
             "yrTerm1Standard.partialUpfront": "0.153",
-            "yrTerm1Standard.allUpfront": "0.140",
+            "yrTerm3Convertible.noUpfront": "0.173",
             "yrTerm3Standard.allUpfront": "0.110",
+            "yrTerm1Standard.allUpfront": "0.140",
             "yrTerm3Standard.partialUpfront": "0.120",
             "yrTerm1Standard.noUpfront": "0.179"
           },
@@ -16180,9 +16297,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.081",
+            "yrTerm3Convertible.partialUpfront": "0.089",
             "yrTerm1Standard.partialUpfront": "0.094",
-            "yrTerm1Standard.allUpfront": "0.086",
+            "yrTerm3Convertible.noUpfront": "0.104",
             "yrTerm3Standard.allUpfront": "0.068",
+            "yrTerm1Standard.allUpfront": "0.086",
             "yrTerm3Standard.partialUpfront": "0.077",
             "yrTerm1Standard.noUpfront": "0.110"
           },
@@ -16190,9 +16310,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.045",
+            "yrTerm3Convertible.partialUpfront": "0.047",
             "yrTerm1Standard.partialUpfront": "0.053",
-            "yrTerm1Standard.allUpfront": "0.050",
+            "yrTerm3Convertible.noUpfront": "0.055",
             "yrTerm3Standard.allUpfront": "0.032",
+            "yrTerm1Standard.allUpfront": "0.050",
             "yrTerm3Standard.partialUpfront": "0.035",
             "yrTerm1Standard.noUpfront": "0.061"
           },
@@ -16709,9 +16832,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.268",
+            "yrTerm3Convertible.partialUpfront": "0.295",
             "yrTerm1Standard.partialUpfront": "0.306",
-            "yrTerm1Standard.allUpfront": "0.278",
+            "yrTerm3Convertible.noUpfront": "0.346",
             "yrTerm3Standard.allUpfront": "0.219",
+            "yrTerm1Standard.allUpfront": "0.278",
             "yrTerm3Standard.partialUpfront": "0.241",
             "yrTerm1Standard.noUpfront": "0.358"
           },
@@ -16719,9 +16845,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.568",
+            "yrTerm3Convertible.partialUpfront": "0.633",
             "yrTerm1Standard.partialUpfront": "0.644",
-            "yrTerm1Standard.allUpfront": "0.578",
+            "yrTerm3Convertible.noUpfront": "0.741",
             "yrTerm3Standard.allUpfront": "0.499",
+            "yrTerm1Standard.allUpfront": "0.578",
             "yrTerm3Standard.partialUpfront": "0.556",
             "yrTerm1Standard.noUpfront": "0.753"
           },
@@ -16729,9 +16858,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.163",
+            "yrTerm3Convertible.partialUpfront": "0.178",
             "yrTerm1Standard.partialUpfront": "0.189",
-            "yrTerm1Standard.allUpfront": "0.173",
+            "yrTerm3Convertible.noUpfront": "0.209",
             "yrTerm3Standard.allUpfront": "0.136",
+            "yrTerm1Standard.allUpfront": "0.173",
             "yrTerm3Standard.partialUpfront": "0.152",
             "yrTerm1Standard.noUpfront": "0.221"
           },
@@ -16739,9 +16871,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.090",
+            "yrTerm3Convertible.partialUpfront": "0.095",
             "yrTerm1Standard.partialUpfront": "0.105",
-            "yrTerm1Standard.allUpfront": "0.100",
+            "yrTerm3Convertible.noUpfront": "0.110",
             "yrTerm3Standard.allUpfront": "0.064",
+            "yrTerm1Standard.allUpfront": "0.100",
             "yrTerm3Standard.partialUpfront": "0.069",
             "yrTerm1Standard.noUpfront": "0.122"
           },
@@ -17271,9 +17406,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.378",
+            "yrTerm3Convertible.partialUpfront": "0.416",
             "yrTerm1Standard.partialUpfront": "0.437",
-            "yrTerm1Standard.allUpfront": "0.398",
+            "yrTerm3Convertible.noUpfront": "0.487",
             "yrTerm3Standard.allUpfront": "0.313",
+            "yrTerm1Standard.allUpfront": "0.398",
             "yrTerm3Standard.partialUpfront": "0.344",
             "yrTerm1Standard.noUpfront": "0.511"
           },
@@ -17281,9 +17419,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.703",
+            "yrTerm3Convertible.partialUpfront": "0.784",
             "yrTerm1Standard.partialUpfront": "0.805",
-            "yrTerm1Standard.allUpfront": "0.723",
+            "yrTerm3Convertible.noUpfront": "0.918",
             "yrTerm3Standard.allUpfront": "0.624",
+            "yrTerm1Standard.allUpfront": "0.723",
             "yrTerm3Standard.partialUpfront": "0.695",
             "yrTerm1Standard.noUpfront": "0.942"
           },
@@ -17291,9 +17432,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.325",
+            "yrTerm3Convertible.partialUpfront": "0.356",
             "yrTerm1Standard.partialUpfront": "0.377",
-            "yrTerm1Standard.allUpfront": "0.345",
+            "yrTerm3Convertible.noUpfront": "0.417",
             "yrTerm3Standard.allUpfront": "0.270",
+            "yrTerm1Standard.allUpfront": "0.345",
             "yrTerm3Standard.partialUpfront": "0.303",
             "yrTerm1Standard.noUpfront": "0.441"
           },
@@ -17301,9 +17445,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.179",
+            "yrTerm3Convertible.partialUpfront": "0.189",
             "yrTerm1Standard.partialUpfront": "0.210",
-            "yrTerm1Standard.allUpfront": "0.199",
+            "yrTerm3Convertible.noUpfront": "0.220",
             "yrTerm3Standard.allUpfront": "0.128",
+            "yrTerm1Standard.allUpfront": "0.199",
             "yrTerm3Standard.partialUpfront": "0.138",
             "yrTerm1Standard.noUpfront": "0.244"
           },
@@ -17833,9 +17980,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.756",
+            "yrTerm3Convertible.partialUpfront": "0.832",
             "yrTerm1Standard.partialUpfront": "0.874",
-            "yrTerm1Standard.allUpfront": "0.796",
+            "yrTerm3Convertible.noUpfront": "0.974",
             "yrTerm3Standard.allUpfront": "0.627",
+            "yrTerm1Standard.allUpfront": "0.796",
             "yrTerm3Standard.partialUpfront": "0.690",
             "yrTerm1Standard.noUpfront": "1.023"
           },
@@ -17843,9 +17993,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.290",
+            "yrTerm3Convertible.partialUpfront": "1.439",
             "yrTerm1Standard.partialUpfront": "1.481",
-            "yrTerm1Standard.allUpfront": "1.330",
+            "yrTerm3Convertible.noUpfront": "1.684",
             "yrTerm3Standard.allUpfront": "1.149",
+            "yrTerm1Standard.allUpfront": "1.330",
             "yrTerm3Standard.partialUpfront": "1.280",
             "yrTerm1Standard.noUpfront": "1.733"
           },
@@ -17853,9 +18006,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.650",
+            "yrTerm3Convertible.partialUpfront": "0.713",
             "yrTerm1Standard.partialUpfront": "0.755",
-            "yrTerm1Standard.allUpfront": "0.690",
+            "yrTerm3Convertible.noUpfront": "0.834",
             "yrTerm3Standard.allUpfront": "0.542",
+            "yrTerm1Standard.allUpfront": "0.690",
             "yrTerm3Standard.partialUpfront": "0.607",
             "yrTerm1Standard.noUpfront": "0.883"
           },
@@ -17863,9 +18019,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.359",
+            "yrTerm3Convertible.partialUpfront": "0.378",
             "yrTerm1Standard.partialUpfront": "0.420",
-            "yrTerm1Standard.allUpfront": "0.399",
+            "yrTerm3Convertible.noUpfront": "0.439",
             "yrTerm3Standard.allUpfront": "0.255",
+            "yrTerm1Standard.allUpfront": "0.399",
             "yrTerm3Standard.partialUpfront": "0.275",
             "yrTerm1Standard.noUpfront": "0.488"
           },
@@ -18611,9 +18770,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.227",
+            "yrTerm3Convertible.partialUpfront": "0.228",
             "yrTerm1Standard.partialUpfront": "0.235",
-            "yrTerm1Standard.allUpfront": "0.234",
+            "yrTerm3Convertible.noUpfront": "0.239",
             "yrTerm3Standard.allUpfront": "0.208",
+            "yrTerm1Standard.allUpfront": "0.234",
             "yrTerm3Standard.partialUpfront": "0.211",
             "yrTerm1Standard.noUpfront": "0.247"
           },
@@ -18621,9 +18783,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.896",
+            "yrTerm3Convertible.partialUpfront": "0.898",
             "yrTerm1Standard.partialUpfront": "0.905",
-            "yrTerm1Standard.allUpfront": "0.903",
+            "yrTerm3Convertible.noUpfront": "0.910",
             "yrTerm3Standard.allUpfront": "0.876",
+            "yrTerm1Standard.allUpfront": "0.903",
             "yrTerm3Standard.partialUpfront": "0.879",
             "yrTerm1Standard.noUpfront": "0.918"
           },
@@ -18631,9 +18796,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.156",
+            "yrTerm3Convertible.partialUpfront": "0.157",
             "yrTerm1Standard.partialUpfront": "0.164",
-            "yrTerm1Standard.allUpfront": "0.163",
+            "yrTerm3Convertible.noUpfront": "0.168",
             "yrTerm3Standard.allUpfront": "0.137",
+            "yrTerm1Standard.allUpfront": "0.163",
             "yrTerm3Standard.partialUpfront": "0.140",
             "yrTerm1Standard.noUpfront": "0.176"
           },
@@ -18641,9 +18809,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.064",
+            "yrTerm3Convertible.partialUpfront": "0.065",
             "yrTerm1Standard.partialUpfront": "0.072",
-            "yrTerm1Standard.allUpfront": "0.071",
+            "yrTerm3Convertible.noUpfront": "0.076",
             "yrTerm3Standard.allUpfront": "0.045",
+            "yrTerm1Standard.allUpfront": "0.071",
             "yrTerm3Standard.partialUpfront": "0.048",
             "yrTerm1Standard.noUpfront": "0.084"
           },
@@ -19438,9 +19609,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.382",
+            "yrTerm3Convertible.partialUpfront": "0.385",
             "yrTerm1Standard.partialUpfront": "0.399",
-            "yrTerm1Standard.allUpfront": "0.396",
+            "yrTerm3Convertible.noUpfront": "0.406",
             "yrTerm3Standard.allUpfront": "0.344",
+            "yrTerm1Standard.allUpfront": "0.396",
             "yrTerm3Standard.partialUpfront": "0.350",
             "yrTerm1Standard.noUpfront": "0.423"
           },
@@ -19448,9 +19622,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.027",
+            "yrTerm3Convertible.partialUpfront": "1.030",
             "yrTerm1Standard.partialUpfront": "1.044",
-            "yrTerm1Standard.allUpfront": "1.041",
+            "yrTerm3Convertible.noUpfront": "1.053",
             "yrTerm3Standard.allUpfront": "0.986",
+            "yrTerm1Standard.allUpfront": "1.041",
             "yrTerm3Standard.partialUpfront": "0.992",
             "yrTerm1Standard.noUpfront": "1.070"
           },
@@ -19458,9 +19635,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.311",
+            "yrTerm3Convertible.partialUpfront": "0.314",
             "yrTerm1Standard.partialUpfront": "0.328",
-            "yrTerm1Standard.allUpfront": "0.325",
+            "yrTerm3Convertible.noUpfront": "0.335",
             "yrTerm3Standard.allUpfront": "0.273",
+            "yrTerm1Standard.allUpfront": "0.325",
             "yrTerm3Standard.partialUpfront": "0.279",
             "yrTerm1Standard.noUpfront": "0.352"
           },
@@ -19468,9 +19648,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.127",
+            "yrTerm3Convertible.partialUpfront": "0.130",
             "yrTerm1Standard.partialUpfront": "0.144",
-            "yrTerm1Standard.allUpfront": "0.141",
+            "yrTerm3Convertible.noUpfront": "0.151",
             "yrTerm3Standard.allUpfront": "0.089",
+            "yrTerm1Standard.allUpfront": "0.141",
             "yrTerm3Standard.partialUpfront": "0.095",
             "yrTerm1Standard.noUpfront": "0.168"
           },
@@ -20265,9 +20448,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.764",
+            "yrTerm3Convertible.partialUpfront": "0.769",
             "yrTerm1Standard.partialUpfront": "0.798",
-            "yrTerm1Standard.allUpfront": "0.792",
+            "yrTerm3Convertible.noUpfront": "0.813",
             "yrTerm3Standard.allUpfront": "0.688",
+            "yrTerm1Standard.allUpfront": "0.792",
             "yrTerm3Standard.partialUpfront": "0.699",
             "yrTerm1Standard.noUpfront": "0.847"
           },
@@ -20275,9 +20461,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.054",
+            "yrTerm3Convertible.partialUpfront": "2.059",
             "yrTerm1Standard.partialUpfront": "2.088",
-            "yrTerm1Standard.allUpfront": "2.082",
+            "yrTerm3Convertible.noUpfront": "2.106",
             "yrTerm3Standard.allUpfront": "1.972",
+            "yrTerm1Standard.allUpfront": "2.082",
             "yrTerm3Standard.partialUpfront": "1.984",
             "yrTerm1Standard.noUpfront": "2.140"
           },
@@ -20285,9 +20474,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.623",
+            "yrTerm3Convertible.partialUpfront": "0.628",
             "yrTerm1Standard.partialUpfront": "0.657",
-            "yrTerm1Standard.allUpfront": "0.651",
+            "yrTerm3Convertible.noUpfront": "0.672",
             "yrTerm3Standard.allUpfront": "0.547",
+            "yrTerm1Standard.allUpfront": "0.651",
             "yrTerm3Standard.partialUpfront": "0.558",
             "yrTerm1Standard.noUpfront": "0.706"
           },
@@ -20295,9 +20487,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.255",
+            "yrTerm3Convertible.partialUpfront": "0.260",
             "yrTerm1Standard.partialUpfront": "0.289",
-            "yrTerm1Standard.allUpfront": "0.283",
+            "yrTerm3Convertible.noUpfront": "0.304",
             "yrTerm3Standard.allUpfront": "0.179",
+            "yrTerm1Standard.allUpfront": "0.283",
             "yrTerm3Standard.partialUpfront": "0.190",
             "yrTerm1Standard.noUpfront": "0.338"
           },
@@ -21092,9 +21287,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.527",
+            "yrTerm3Convertible.partialUpfront": "1.538",
             "yrTerm1Standard.partialUpfront": "1.596",
-            "yrTerm1Standard.allUpfront": "1.584",
+            "yrTerm3Convertible.noUpfront": "1.626",
             "yrTerm3Standard.allUpfront": "1.376",
+            "yrTerm1Standard.allUpfront": "1.584",
             "yrTerm3Standard.partialUpfront": "1.399",
             "yrTerm1Standard.noUpfront": "1.694"
           },
@@ -21102,9 +21300,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "4.107",
+            "yrTerm3Convertible.partialUpfront": "4.118",
             "yrTerm1Standard.partialUpfront": "4.176",
-            "yrTerm1Standard.allUpfront": "4.164",
+            "yrTerm3Convertible.noUpfront": "4.211",
             "yrTerm3Standard.allUpfront": "3.945",
+            "yrTerm1Standard.allUpfront": "4.164",
             "yrTerm3Standard.partialUpfront": "3.969",
             "yrTerm1Standard.noUpfront": "4.279"
           },
@@ -21112,9 +21313,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.245",
+            "yrTerm3Convertible.partialUpfront": "1.256",
             "yrTerm1Standard.partialUpfront": "1.314",
-            "yrTerm1Standard.allUpfront": "1.302",
+            "yrTerm3Convertible.noUpfront": "1.344",
             "yrTerm3Standard.allUpfront": "1.094",
+            "yrTerm1Standard.allUpfront": "1.302",
             "yrTerm3Standard.partialUpfront": "1.117",
             "yrTerm1Standard.noUpfront": "1.412"
           },
@@ -21122,9 +21326,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.509",
+            "yrTerm3Convertible.partialUpfront": "0.520",
             "yrTerm1Standard.partialUpfront": "0.578",
-            "yrTerm1Standard.allUpfront": "0.566",
+            "yrTerm3Convertible.noUpfront": "0.608",
             "yrTerm3Standard.allUpfront": "0.358",
+            "yrTerm1Standard.allUpfront": "0.566",
             "yrTerm3Standard.partialUpfront": "0.381",
             "yrTerm1Standard.noUpfront": "0.676"
           },
@@ -21919,9 +22126,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "3.308",
+            "yrTerm3Convertible.partialUpfront": "3.329",
             "yrTerm1Standard.partialUpfront": "3.444",
-            "yrTerm1Standard.allUpfront": "3.421",
+            "yrTerm3Convertible.noUpfront": "3.505",
             "yrTerm3Standard.allUpfront": "3.005",
+            "yrTerm1Standard.allUpfront": "3.421",
             "yrTerm3Standard.partialUpfront": "3.051",
             "yrTerm1Standard.noUpfront": "3.640"
           },
@@ -21929,9 +22139,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "9.106",
+            "yrTerm3Convertible.partialUpfront": "9.128",
             "yrTerm1Standard.partialUpfront": "9.243",
-            "yrTerm1Standard.allUpfront": "9.219",
+            "yrTerm3Convertible.noUpfront": "9.315",
             "yrTerm3Standard.allUpfront": "8.781",
+            "yrTerm1Standard.allUpfront": "9.219",
             "yrTerm3Standard.partialUpfront": "8.829",
             "yrTerm1Standard.noUpfront": "9.450"
           },
@@ -21939,9 +22152,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.674",
+            "yrTerm3Convertible.partialUpfront": "2.695",
             "yrTerm1Standard.partialUpfront": "2.810",
-            "yrTerm1Standard.allUpfront": "2.787",
+            "yrTerm3Convertible.noUpfront": "2.871",
             "yrTerm3Standard.allUpfront": "2.371",
+            "yrTerm1Standard.allUpfront": "2.787",
             "yrTerm3Standard.partialUpfront": "2.417",
             "yrTerm1Standard.noUpfront": "3.006"
           },
@@ -21949,9 +22165,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.018",
+            "yrTerm3Convertible.partialUpfront": "1.039",
             "yrTerm1Standard.partialUpfront": "1.154",
-            "yrTerm1Standard.allUpfront": "1.131",
+            "yrTerm3Convertible.noUpfront": "1.215",
             "yrTerm3Standard.allUpfront": "0.715",
+            "yrTerm1Standard.allUpfront": "1.131",
             "yrTerm3Standard.partialUpfront": "0.761",
             "yrTerm1Standard.noUpfront": "1.350"
           },
@@ -22517,9 +22736,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.166",
+            "yrTerm3Convertible.partialUpfront": "0.169",
             "yrTerm1Standard.partialUpfront": "0.177",
-            "yrTerm1Standard.allUpfront": "0.173",
+            "yrTerm3Convertible.noUpfront": "0.198",
             "yrTerm3Standard.allUpfront": "0.133",
+            "yrTerm1Standard.allUpfront": "0.173",
             "yrTerm3Standard.partialUpfront": "0.142",
             "yrTerm1Standard.noUpfront": "0.207"
           },
@@ -22527,9 +22749,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.144",
+            "yrTerm3Convertible.partialUpfront": "0.147",
             "yrTerm1Standard.partialUpfront": "0.154",
-            "yrTerm1Standard.allUpfront": "0.151",
+            "yrTerm3Convertible.noUpfront": "0.171",
             "yrTerm3Standard.allUpfront": "0.117",
+            "yrTerm1Standard.allUpfront": "0.151",
             "yrTerm3Standard.partialUpfront": "0.124",
             "yrTerm1Standard.noUpfront": "0.180"
           },
@@ -22537,9 +22762,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.067",
+            "yrTerm3Convertible.partialUpfront": "0.068",
             "yrTerm1Standard.partialUpfront": "0.076",
-            "yrTerm1Standard.allUpfront": "0.074",
+            "yrTerm3Convertible.noUpfront": "0.079",
             "yrTerm3Standard.allUpfront": "0.047",
+            "yrTerm1Standard.allUpfront": "0.074",
             "yrTerm3Standard.partialUpfront": "0.049",
             "yrTerm1Standard.noUpfront": "0.088"
           },
@@ -23056,9 +23284,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.334",
+            "yrTerm3Convertible.partialUpfront": "0.340",
             "yrTerm1Standard.partialUpfront": "0.356",
-            "yrTerm1Standard.allUpfront": "0.349",
+            "yrTerm3Convertible.noUpfront": "0.398",
             "yrTerm3Standard.allUpfront": "0.267",
+            "yrTerm1Standard.allUpfront": "0.349",
             "yrTerm3Standard.partialUpfront": "0.284",
             "yrTerm1Standard.noUpfront": "0.416"
           },
@@ -23066,9 +23297,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.656",
+            "yrTerm3Convertible.partialUpfront": "0.670",
             "yrTerm1Standard.partialUpfront": "0.685",
-            "yrTerm1Standard.allUpfront": "0.671",
+            "yrTerm3Convertible.noUpfront": "0.783",
             "yrTerm3Standard.allUpfront": "0.576",
+            "yrTerm1Standard.allUpfront": "0.671",
             "yrTerm3Standard.partialUpfront": "0.613",
             "yrTerm1Standard.noUpfront": "0.801"
           },
@@ -23076,9 +23310,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.286",
+            "yrTerm3Convertible.partialUpfront": "0.292",
             "yrTerm1Standard.partialUpfront": "0.307",
-            "yrTerm1Standard.allUpfront": "0.301",
+            "yrTerm3Convertible.noUpfront": "0.341",
             "yrTerm3Standard.allUpfront": "0.235",
+            "yrTerm1Standard.allUpfront": "0.301",
             "yrTerm3Standard.partialUpfront": "0.250",
             "yrTerm1Standard.noUpfront": "0.359"
           },
@@ -23086,9 +23323,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.135",
+            "yrTerm3Convertible.partialUpfront": "0.137",
             "yrTerm1Standard.partialUpfront": "0.152",
-            "yrTerm1Standard.allUpfront": "0.150",
+            "yrTerm3Convertible.noUpfront": "0.158",
             "yrTerm3Standard.allUpfront": "0.094",
+            "yrTerm1Standard.allUpfront": "0.150",
             "yrTerm3Standard.partialUpfront": "0.100",
             "yrTerm1Standard.noUpfront": "0.176"
           },
@@ -23618,9 +23858,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.666",
+            "yrTerm3Convertible.partialUpfront": "0.680",
             "yrTerm1Standard.partialUpfront": "0.710",
-            "yrTerm1Standard.allUpfront": "0.696",
+            "yrTerm3Convertible.noUpfront": "0.796",
             "yrTerm3Standard.allUpfront": "0.534",
+            "yrTerm1Standard.allUpfront": "0.696",
             "yrTerm3Standard.partialUpfront": "0.568",
             "yrTerm1Standard.noUpfront": "0.831"
           },
@@ -23628,9 +23871,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.312",
+            "yrTerm3Convertible.partialUpfront": "1.339",
             "yrTerm1Standard.partialUpfront": "1.369",
-            "yrTerm1Standard.allUpfront": "1.341",
+            "yrTerm3Convertible.noUpfront": "1.567",
             "yrTerm3Standard.allUpfront": "1.150",
+            "yrTerm1Standard.allUpfront": "1.341",
             "yrTerm3Standard.partialUpfront": "1.223",
             "yrTerm1Standard.noUpfront": "1.602"
           },
@@ -23638,9 +23884,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.571",
+            "yrTerm3Convertible.partialUpfront": "0.583",
             "yrTerm1Standard.partialUpfront": "0.613",
-            "yrTerm1Standard.allUpfront": "0.601",
+            "yrTerm3Convertible.noUpfront": "0.682",
             "yrTerm3Standard.allUpfront": "0.469",
+            "yrTerm1Standard.allUpfront": "0.601",
             "yrTerm3Standard.partialUpfront": "0.499",
             "yrTerm1Standard.noUpfront": "0.717"
           },
@@ -23648,9 +23897,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.268",
+            "yrTerm3Convertible.partialUpfront": "0.272",
             "yrTerm1Standard.partialUpfront": "0.303",
-            "yrTerm1Standard.allUpfront": "0.297",
+            "yrTerm3Convertible.noUpfront": "0.317",
             "yrTerm3Standard.allUpfront": "0.189",
+            "yrTerm1Standard.allUpfront": "0.297",
             "yrTerm3Standard.partialUpfront": "0.201",
             "yrTerm1Standard.noUpfront": "0.352"
           },
@@ -24180,9 +24432,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.330",
+            "yrTerm3Convertible.partialUpfront": "1.357",
             "yrTerm1Standard.partialUpfront": "1.418",
-            "yrTerm1Standard.allUpfront": "1.389",
+            "yrTerm3Convertible.noUpfront": "1.589",
             "yrTerm3Standard.allUpfront": "1.069",
+            "yrTerm1Standard.allUpfront": "1.389",
             "yrTerm3Standard.partialUpfront": "1.137",
             "yrTerm1Standard.noUpfront": "1.659"
           },
@@ -24190,9 +24445,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.623",
+            "yrTerm3Convertible.partialUpfront": "2.677",
             "yrTerm1Standard.partialUpfront": "2.738",
-            "yrTerm1Standard.allUpfront": "2.683",
+            "yrTerm3Convertible.noUpfront": "3.133",
             "yrTerm3Standard.allUpfront": "2.301",
+            "yrTerm1Standard.allUpfront": "2.683",
             "yrTerm3Standard.partialUpfront": "2.448",
             "yrTerm1Standard.noUpfront": "3.203"
           },
@@ -24200,9 +24458,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.143",
+            "yrTerm3Convertible.partialUpfront": "1.167",
             "yrTerm1Standard.partialUpfront": "1.227",
-            "yrTerm1Standard.allUpfront": "1.203",
+            "yrTerm3Convertible.noUpfront": "1.366",
             "yrTerm3Standard.allUpfront": "0.937",
+            "yrTerm1Standard.allUpfront": "1.203",
             "yrTerm3Standard.partialUpfront": "0.997",
             "yrTerm1Standard.noUpfront": "1.436"
           },
@@ -24210,9 +24471,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.536",
+            "yrTerm3Convertible.partialUpfront": "0.546",
             "yrTerm1Standard.partialUpfront": "0.607",
-            "yrTerm1Standard.allUpfront": "0.596",
+            "yrTerm3Convertible.noUpfront": "0.634",
             "yrTerm3Standard.allUpfront": "0.377",
+            "yrTerm1Standard.allUpfront": "0.596",
             "yrTerm3Standard.partialUpfront": "0.402",
             "yrTerm1Standard.noUpfront": "0.704"
           },
@@ -24742,9 +25006,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.660",
+            "yrTerm3Convertible.partialUpfront": "2.715",
             "yrTerm1Standard.partialUpfront": "2.836",
-            "yrTerm1Standard.allUpfront": "2.779",
+            "yrTerm3Convertible.noUpfront": "3.177",
             "yrTerm3Standard.allUpfront": "2.136",
+            "yrTerm1Standard.allUpfront": "2.779",
             "yrTerm3Standard.partialUpfront": "2.273",
             "yrTerm1Standard.noUpfront": "3.318"
           },
@@ -24752,9 +25019,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "5.248",
+            "yrTerm3Convertible.partialUpfront": "5.355",
             "yrTerm1Standard.partialUpfront": "5.476",
-            "yrTerm1Standard.allUpfront": "5.367",
+            "yrTerm3Convertible.noUpfront": "6.266",
             "yrTerm3Standard.allUpfront": "4.601",
+            "yrTerm1Standard.allUpfront": "5.367",
             "yrTerm3Standard.partialUpfront": "4.894",
             "yrTerm1Standard.noUpfront": "6.407"
           },
@@ -24762,9 +25032,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.284",
+            "yrTerm3Convertible.partialUpfront": "2.331",
             "yrTerm1Standard.partialUpfront": "2.452",
-            "yrTerm1Standard.allUpfront": "2.403",
+            "yrTerm3Convertible.noUpfront": "2.728",
             "yrTerm3Standard.allUpfront": "1.872",
+            "yrTerm1Standard.allUpfront": "2.403",
             "yrTerm3Standard.partialUpfront": "1.991",
             "yrTerm1Standard.noUpfront": "2.869"
           },
@@ -24772,9 +25045,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.071",
+            "yrTerm3Convertible.partialUpfront": "1.093",
             "yrTerm1Standard.partialUpfront": "1.215",
-            "yrTerm1Standard.allUpfront": "1.191",
+            "yrTerm3Convertible.noUpfront": "1.267",
             "yrTerm3Standard.allUpfront": "0.754",
+            "yrTerm1Standard.allUpfront": "1.191",
             "yrTerm3Standard.partialUpfront": "0.801",
             "yrTerm1Standard.noUpfront": "1.408"
           },
@@ -25036,9 +25312,12 @@
       "us-gov-west-1": {
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.803",
+            "yrTerm3Convertible.partialUpfront": "0.816",
             "yrTerm1Standard.partialUpfront": "0.886",
-            "yrTerm1Standard.allUpfront": "0.872",
+            "yrTerm3Convertible.noUpfront": "0.923",
             "yrTerm3Standard.allUpfront": "0.663",
+            "yrTerm1Standard.allUpfront": "0.872",
             "yrTerm3Standard.partialUpfront": "0.694",
             "yrTerm1Standard.noUpfront": "1.005"
           },
@@ -25046,9 +25325,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.619",
+            "yrTerm3Convertible.partialUpfront": "0.632",
             "yrTerm1Standard.partialUpfront": "0.702",
-            "yrTerm1Standard.allUpfront": "0.688",
+            "yrTerm3Convertible.noUpfront": "0.739",
             "yrTerm3Standard.allUpfront": "0.479",
+            "yrTerm1Standard.allUpfront": "0.688",
             "yrTerm3Standard.partialUpfront": "0.510",
             "yrTerm1Standard.noUpfront": "0.821"
           },
@@ -25171,9 +25453,12 @@
       "us-gov-west-1": {
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "6.426",
+            "yrTerm3Convertible.partialUpfront": "6.526",
             "yrTerm1Standard.partialUpfront": "7.088",
-            "yrTerm1Standard.allUpfront": "6.976",
+            "yrTerm3Convertible.noUpfront": "7.386",
             "yrTerm3Standard.allUpfront": "5.307",
+            "yrTerm1Standard.allUpfront": "6.976",
             "yrTerm3Standard.partialUpfront": "5.552",
             "yrTerm1Standard.noUpfront": "8.043"
           },
@@ -25181,9 +25466,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "4.954",
+            "yrTerm3Convertible.partialUpfront": "5.054",
             "yrTerm1Standard.partialUpfront": "5.616",
-            "yrTerm1Standard.allUpfront": "5.504",
+            "yrTerm3Convertible.noUpfront": "5.914",
             "yrTerm3Standard.allUpfront": "3.835",
+            "yrTerm1Standard.allUpfront": "5.504",
             "yrTerm3Standard.partialUpfront": "4.080",
             "yrTerm1Standard.noUpfront": "6.571"
           },
@@ -25306,9 +25594,12 @@
       "us-gov-west-1": {
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "12.850",
+            "yrTerm3Convertible.partialUpfront": "13.053",
             "yrTerm1Standard.partialUpfront": "14.176",
-            "yrTerm1Standard.allUpfront": "13.951",
+            "yrTerm3Convertible.noUpfront": "14.771",
             "yrTerm3Standard.allUpfront": "10.614",
+            "yrTerm1Standard.allUpfront": "13.951",
             "yrTerm3Standard.partialUpfront": "11.104",
             "yrTerm1Standard.noUpfront": "16.085"
           },
@@ -25316,9 +25607,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "9.906",
+            "yrTerm3Convertible.partialUpfront": "10.109",
             "yrTerm1Standard.partialUpfront": "11.232",
-            "yrTerm1Standard.allUpfront": "11.007",
+            "yrTerm3Convertible.noUpfront": "11.827",
             "yrTerm3Standard.allUpfront": "7.670",
+            "yrTerm1Standard.allUpfront": "11.007",
             "yrTerm3Standard.partialUpfront": "8.160",
             "yrTerm1Standard.noUpfront": "13.141"
           },
@@ -26513,9 +26807,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "8.414",
+            "yrTerm3Convertible.partialUpfront": "8.498",
             "yrTerm1Standard.partialUpfront": "8.968",
-            "yrTerm1Standard.allUpfront": "8.874",
+            "yrTerm3Convertible.noUpfront": "9.217",
             "yrTerm3Standard.allUpfront": "6.510",
+            "yrTerm1Standard.allUpfront": "8.874",
             "yrTerm3Standard.partialUpfront": "6.653",
             "yrTerm1Standard.noUpfront": "9.766"
           },
@@ -26523,9 +26820,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "28.314",
+            "yrTerm3Convertible.partialUpfront": "28.398",
             "yrTerm1Standard.partialUpfront": "28.868",
-            "yrTerm1Standard.allUpfront": "28.774",
+            "yrTerm3Convertible.noUpfront": "29.117",
             "yrTerm3Standard.allUpfront": "26.410",
+            "yrTerm1Standard.allUpfront": "28.774",
             "yrTerm3Standard.partialUpfront": "26.553",
             "yrTerm1Standard.noUpfront": "29.666"
           },
@@ -26533,9 +26833,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "7.087",
+            "yrTerm3Convertible.partialUpfront": "7.171",
             "yrTerm1Standard.partialUpfront": "7.641",
-            "yrTerm1Standard.allUpfront": "7.547",
+            "yrTerm3Convertible.noUpfront": "7.890",
             "yrTerm3Standard.allUpfront": "5.183",
+            "yrTerm1Standard.allUpfront": "7.547",
             "yrTerm3Standard.partialUpfront": "5.326",
             "yrTerm1Standard.noUpfront": "8.439"
           },
@@ -26543,9 +26846,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "4.143",
+            "yrTerm3Convertible.partialUpfront": "4.227",
             "yrTerm1Standard.partialUpfront": "4.697",
-            "yrTerm1Standard.allUpfront": "4.603",
+            "yrTerm3Convertible.noUpfront": "4.946",
             "yrTerm3Standard.allUpfront": "2.239",
+            "yrTerm1Standard.allUpfront": "4.603",
             "yrTerm3Standard.partialUpfront": "2.382",
             "yrTerm1Standard.noUpfront": "5.495"
           },
@@ -27236,9 +27542,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "16.827",
+            "yrTerm3Convertible.partialUpfront": "16.996",
             "yrTerm1Standard.partialUpfront": "17.935",
-            "yrTerm1Standard.allUpfront": "17.747",
+            "yrTerm3Convertible.noUpfront": "18.433",
             "yrTerm3Standard.allUpfront": "13.020",
+            "yrTerm1Standard.allUpfront": "17.747",
             "yrTerm3Standard.partialUpfront": "13.306",
             "yrTerm1Standard.noUpfront": "19.532"
           },
@@ -27246,9 +27555,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "56.629",
+            "yrTerm3Convertible.partialUpfront": "56.798",
             "yrTerm1Standard.partialUpfront": "57.737",
-            "yrTerm1Standard.allUpfront": "57.549",
+            "yrTerm3Convertible.noUpfront": "58.235",
             "yrTerm3Standard.allUpfront": "52.822",
+            "yrTerm1Standard.allUpfront": "57.549",
             "yrTerm3Standard.partialUpfront": "53.108",
             "yrTerm1Standard.noUpfront": "59.334"
           },
@@ -27256,9 +27568,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "14.173",
+            "yrTerm3Convertible.partialUpfront": "14.342",
             "yrTerm1Standard.partialUpfront": "15.281",
-            "yrTerm1Standard.allUpfront": "15.093",
+            "yrTerm3Convertible.noUpfront": "15.779",
             "yrTerm3Standard.allUpfront": "10.366",
+            "yrTerm1Standard.allUpfront": "15.093",
             "yrTerm3Standard.partialUpfront": "10.652",
             "yrTerm1Standard.noUpfront": "16.878"
           },
@@ -27266,9 +27581,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "8.285",
+            "yrTerm3Convertible.partialUpfront": "8.454",
             "yrTerm1Standard.partialUpfront": "9.393",
-            "yrTerm1Standard.allUpfront": "9.205",
+            "yrTerm3Convertible.noUpfront": "9.891",
             "yrTerm3Standard.allUpfront": "4.478",
+            "yrTerm1Standard.allUpfront": "9.205",
             "yrTerm3Standard.partialUpfront": "4.764",
             "yrTerm1Standard.noUpfront": "10.990"
           },
@@ -27743,7 +28061,7 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "0.247",
+            "yrTerm3Convertible.allUpfront": "0.248",
             "yrTerm3Convertible.partialUpfront": "0.249",
             "yrTerm1Standard.partialUpfront": "0.259",
             "yrTerm3Convertible.noUpfront": "0.264",
@@ -27756,7 +28074,7 @@
         },
         "mswinSQL": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "1.303",
+            "yrTerm3Convertible.allUpfront": "1.304",
             "yrTerm3Convertible.partialUpfront": "1.305",
             "yrTerm1Standard.partialUpfront": "1.315",
             "yrTerm3Convertible.noUpfront": "1.320",
@@ -27769,7 +28087,7 @@
         },
         "mswin": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "0.176",
+            "yrTerm3Convertible.allUpfront": "0.177",
             "yrTerm3Convertible.partialUpfront": "0.178",
             "yrTerm1Standard.partialUpfront": "0.188",
             "yrTerm3Convertible.noUpfront": "0.193",
@@ -27782,7 +28100,7 @@
         },
         "linux": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "0.084",
+            "yrTerm3Convertible.allUpfront": "0.085",
             "yrTerm3Convertible.partialUpfront": "0.086",
             "yrTerm1Standard.partialUpfront": "0.096",
             "yrTerm3Convertible.noUpfront": "0.101",
@@ -28205,7 +28523,7 @@
         "mswinSQLWeb": {
           "reserved": {
             "yrTerm3Convertible.allUpfront": "0.424",
-            "yrTerm3Convertible.partialUpfront": "0.427",
+            "yrTerm3Convertible.partialUpfront": "0.428",
             "yrTerm1Standard.partialUpfront": "0.447",
             "yrTerm3Convertible.noUpfront": "0.457",
             "yrTerm3Standard.allUpfront": "0.375",
@@ -28218,7 +28536,7 @@
         "mswinSQL": {
           "reserved": {
             "yrTerm3Convertible.allUpfront": "1.480",
-            "yrTerm3Convertible.partialUpfront": "1.483",
+            "yrTerm3Convertible.partialUpfront": "1.484",
             "yrTerm1Standard.partialUpfront": "1.503",
             "yrTerm3Convertible.noUpfront": "1.513",
             "yrTerm3Standard.allUpfront": "1.431",
@@ -28231,7 +28549,7 @@
         "mswin": {
           "reserved": {
             "yrTerm3Convertible.allUpfront": "0.353",
-            "yrTerm3Convertible.partialUpfront": "0.356",
+            "yrTerm3Convertible.partialUpfront": "0.357",
             "yrTerm1Standard.partialUpfront": "0.376",
             "yrTerm3Convertible.noUpfront": "0.386",
             "yrTerm3Standard.allUpfront": "0.304",
@@ -28244,7 +28562,7 @@
         "linux": {
           "reserved": {
             "yrTerm3Convertible.allUpfront": "0.169",
-            "yrTerm3Convertible.partialUpfront": "0.172",
+            "yrTerm3Convertible.partialUpfront": "0.173",
             "yrTerm1Standard.partialUpfront": "0.192",
             "yrTerm3Convertible.noUpfront": "0.202",
             "yrTerm3Standard.allUpfront": "0.120",
@@ -29129,7 +29447,7 @@
             "yrTerm3Convertible.allUpfront": "1.694",
             "yrTerm3Convertible.partialUpfront": "1.707",
             "yrTerm1Standard.partialUpfront": "1.784",
-            "yrTerm3Convertible.noUpfront": "1.825",
+            "yrTerm3Convertible.noUpfront": "1.824",
             "yrTerm3Standard.allUpfront": "1.498",
             "yrTerm1Standard.allUpfront": "1.769",
             "yrTerm3Standard.partialUpfront": "1.529",
@@ -29142,7 +29460,7 @@
             "yrTerm3Convertible.allUpfront": "5.918",
             "yrTerm3Convertible.partialUpfront": "5.931",
             "yrTerm1Standard.partialUpfront": "6.008",
-            "yrTerm3Convertible.noUpfront": "6.049",
+            "yrTerm3Convertible.noUpfront": "6.048",
             "yrTerm3Standard.allUpfront": "5.722",
             "yrTerm1Standard.allUpfront": "5.993",
             "yrTerm3Standard.partialUpfront": "5.753",
@@ -29155,7 +29473,7 @@
             "yrTerm3Convertible.allUpfront": "1.412",
             "yrTerm3Convertible.partialUpfront": "1.425",
             "yrTerm1Standard.partialUpfront": "1.502",
-            "yrTerm3Convertible.noUpfront": "1.543",
+            "yrTerm3Convertible.noUpfront": "1.542",
             "yrTerm3Standard.allUpfront": "1.216",
             "yrTerm1Standard.allUpfront": "1.487",
             "yrTerm3Standard.partialUpfront": "1.247",
@@ -29168,7 +29486,7 @@
             "yrTerm3Convertible.allUpfront": "0.676",
             "yrTerm3Convertible.partialUpfront": "0.689",
             "yrTerm1Standard.partialUpfront": "0.766",
-            "yrTerm3Convertible.noUpfront": "0.807",
+            "yrTerm3Convertible.noUpfront": "0.806",
             "yrTerm3Standard.allUpfront": "0.480",
             "yrTerm1Standard.allUpfront": "0.751",
             "yrTerm3Standard.partialUpfront": "0.511",
@@ -29587,10 +29905,10 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "3.387",
+            "yrTerm3Convertible.allUpfront": "3.388",
             "yrTerm3Convertible.partialUpfront": "3.415",
             "yrTerm1Standard.partialUpfront": "3.568",
-            "yrTerm3Convertible.noUpfront": "3.649",
+            "yrTerm3Convertible.noUpfront": "3.650",
             "yrTerm3Standard.allUpfront": "2.996",
             "yrTerm1Standard.allUpfront": "3.538",
             "yrTerm3Standard.partialUpfront": "3.057",
@@ -29600,10 +29918,10 @@
         },
         "mswinSQL": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "11.834",
+            "yrTerm3Convertible.allUpfront": "11.835",
             "yrTerm3Convertible.partialUpfront": "11.862",
             "yrTerm1Standard.partialUpfront": "12.015",
-            "yrTerm3Convertible.noUpfront": "12.096",
+            "yrTerm3Convertible.noUpfront": "12.097",
             "yrTerm3Standard.allUpfront": "11.443",
             "yrTerm1Standard.allUpfront": "11.985",
             "yrTerm3Standard.partialUpfront": "11.504",
@@ -29613,10 +29931,10 @@
         },
         "mswin": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "2.823",
+            "yrTerm3Convertible.allUpfront": "2.824",
             "yrTerm3Convertible.partialUpfront": "2.851",
             "yrTerm1Standard.partialUpfront": "3.004",
-            "yrTerm3Convertible.noUpfront": "3.085",
+            "yrTerm3Convertible.noUpfront": "3.086",
             "yrTerm3Standard.allUpfront": "2.432",
             "yrTerm1Standard.allUpfront": "2.974",
             "yrTerm3Standard.partialUpfront": "2.493",
@@ -29626,10 +29944,10 @@
         },
         "linux": {
           "reserved": {
-            "yrTerm3Convertible.allUpfront": "1.351",
+            "yrTerm3Convertible.allUpfront": "1.352",
             "yrTerm3Convertible.partialUpfront": "1.379",
             "yrTerm1Standard.partialUpfront": "1.532",
-            "yrTerm3Convertible.noUpfront": "1.613",
+            "yrTerm3Convertible.noUpfront": "1.614",
             "yrTerm3Standard.allUpfront": "0.960",
             "yrTerm1Standard.allUpfront": "1.502",
             "yrTerm3Standard.partialUpfront": "1.021",
@@ -30779,9 +31097,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.235",
+            "yrTerm3Convertible.partialUpfront": "0.240",
             "yrTerm1Standard.partialUpfront": "0.251",
-            "yrTerm1Standard.allUpfront": "0.246",
+            "yrTerm3Convertible.noUpfront": "0.281",
             "yrTerm3Standard.allUpfront": "0.202",
+            "yrTerm1Standard.allUpfront": "0.246",
             "yrTerm3Standard.partialUpfront": "0.214",
             "yrTerm1Standard.noUpfront": "0.293"
           },
@@ -30789,9 +31110,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.705",
+            "yrTerm3Convertible.partialUpfront": "0.719",
             "yrTerm1Standard.partialUpfront": "0.730",
-            "yrTerm1Standard.allUpfront": "0.715",
+            "yrTerm3Convertible.noUpfront": "0.842",
             "yrTerm3Standard.allUpfront": "0.611",
+            "yrTerm1Standard.allUpfront": "0.715",
             "yrTerm3Standard.partialUpfront": "0.649",
             "yrTerm1Standard.noUpfront": "0.854"
           },
@@ -30799,9 +31123,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.207",
+            "yrTerm3Convertible.partialUpfront": "0.211",
             "yrTerm1Standard.partialUpfront": "0.222",
-            "yrTerm1Standard.allUpfront": "0.217",
+            "yrTerm3Convertible.noUpfront": "0.247",
             "yrTerm3Standard.allUpfront": "0.159",
+            "yrTerm1Standard.allUpfront": "0.217",
             "yrTerm3Standard.partialUpfront": "0.167",
             "yrTerm1Standard.noUpfront": "0.259"
           },
@@ -30809,9 +31136,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.095",
+            "yrTerm3Convertible.partialUpfront": "0.097",
             "yrTerm1Standard.partialUpfront": "0.107",
-            "yrTerm1Standard.allUpfront": "0.106",
+            "yrTerm3Convertible.noUpfront": "0.113",
             "yrTerm3Standard.allUpfront": "0.070",
+            "yrTerm1Standard.allUpfront": "0.106",
             "yrTerm3Standard.partialUpfront": "0.074",
             "yrTerm1Standard.noUpfront": "0.125"
           },
@@ -31502,9 +31832,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.450",
+            "yrTerm3Convertible.partialUpfront": "0.459",
             "yrTerm1Standard.partialUpfront": "0.481",
-            "yrTerm1Standard.allUpfront": "0.471",
+            "yrTerm3Convertible.noUpfront": "0.538",
             "yrTerm3Standard.allUpfront": "0.388",
+            "yrTerm1Standard.allUpfront": "0.471",
             "yrTerm3Standard.partialUpfront": "0.413",
             "yrTerm1Standard.noUpfront": "0.563"
           },
@@ -31512,9 +31845,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.030",
+            "yrTerm3Convertible.partialUpfront": "1.052",
             "yrTerm1Standard.partialUpfront": "1.073",
-            "yrTerm1Standard.allUpfront": "1.052",
+            "yrTerm3Convertible.noUpfront": "1.231",
             "yrTerm3Standard.allUpfront": "0.897",
+            "yrTerm1Standard.allUpfront": "1.052",
             "yrTerm3Standard.partialUpfront": "0.954",
             "yrTerm1Standard.noUpfront": "1.256"
           },
@@ -31522,9 +31858,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.375",
+            "yrTerm3Convertible.partialUpfront": "0.381",
             "yrTerm1Standard.partialUpfront": "0.402",
-            "yrTerm1Standard.allUpfront": "0.396",
+            "yrTerm3Convertible.noUpfront": "0.446",
             "yrTerm3Standard.allUpfront": "0.288",
+            "yrTerm1Standard.allUpfront": "0.396",
             "yrTerm3Standard.partialUpfront": "0.307",
             "yrTerm1Standard.noUpfront": "0.471"
           },
@@ -31532,9 +31871,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.190",
+            "yrTerm3Convertible.partialUpfront": "0.194",
             "yrTerm1Standard.partialUpfront": "0.216",
-            "yrTerm1Standard.allUpfront": "0.212",
+            "yrTerm3Convertible.noUpfront": "0.226",
             "yrTerm3Standard.allUpfront": "0.140",
+            "yrTerm1Standard.allUpfront": "0.212",
             "yrTerm3Standard.partialUpfront": "0.149",
             "yrTerm1Standard.noUpfront": "0.251"
           },
@@ -32225,9 +32567,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.924",
+            "yrTerm3Convertible.partialUpfront": "0.943",
             "yrTerm1Standard.partialUpfront": "0.986",
-            "yrTerm1Standard.allUpfront": "0.966",
+            "yrTerm3Convertible.noUpfront": "1.104",
             "yrTerm3Standard.allUpfront": "0.795",
+            "yrTerm1Standard.allUpfront": "0.966",
             "yrTerm3Standard.partialUpfront": "0.846",
             "yrTerm1Standard.noUpfront": "1.154"
           },
@@ -32235,9 +32580,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.049",
+            "yrTerm3Convertible.partialUpfront": "2.091",
             "yrTerm1Standard.partialUpfront": "2.134",
-            "yrTerm1Standard.allUpfront": "2.091",
+            "yrTerm3Convertible.noUpfront": "2.448",
             "yrTerm3Standard.allUpfront": "1.783",
+            "yrTerm1Standard.allUpfront": "2.091",
             "yrTerm3Standard.partialUpfront": "1.897",
             "yrTerm1Standard.noUpfront": "2.498"
           },
@@ -32245,9 +32593,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.741",
+            "yrTerm3Convertible.partialUpfront": "0.755",
             "yrTerm1Standard.partialUpfront": "0.799",
-            "yrTerm1Standard.allUpfront": "0.784",
+            "yrTerm3Convertible.noUpfront": "0.860",
             "yrTerm3Standard.allUpfront": "0.557",
+            "yrTerm1Standard.allUpfront": "0.784",
             "yrTerm3Standard.partialUpfront": "0.592",
             "yrTerm1Standard.noUpfront": "0.910"
           },
@@ -32255,9 +32606,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.381",
+            "yrTerm3Convertible.partialUpfront": "0.388",
             "yrTerm1Standard.partialUpfront": "0.432",
-            "yrTerm1Standard.allUpfront": "0.423",
+            "yrTerm3Convertible.noUpfront": "0.452",
             "yrTerm3Standard.allUpfront": "0.280",
+            "yrTerm1Standard.allUpfront": "0.423",
             "yrTerm3Standard.partialUpfront": "0.297",
             "yrTerm1Standard.noUpfront": "0.502"
           },
@@ -32948,9 +33302,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.411",
+            "yrTerm3Convertible.partialUpfront": "1.440",
             "yrTerm1Standard.partialUpfront": "1.526",
-            "yrTerm1Standard.allUpfront": "1.496",
+            "yrTerm3Convertible.noUpfront": "1.686",
             "yrTerm3Standard.allUpfront": "1.225",
+            "yrTerm1Standard.allUpfront": "1.496",
             "yrTerm3Standard.partialUpfront": "1.304",
             "yrTerm1Standard.noUpfront": "1.786"
           },
@@ -32958,9 +33315,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "3.442",
+            "yrTerm3Convertible.partialUpfront": "3.512",
             "yrTerm1Standard.partialUpfront": "3.598",
-            "yrTerm1Standard.allUpfront": "3.526",
+            "yrTerm3Convertible.noUpfront": "4.110",
             "yrTerm3Standard.allUpfront": "3.001",
+            "yrTerm1Standard.allUpfront": "3.526",
             "yrTerm3Standard.partialUpfront": "3.193",
             "yrTerm1Standard.noUpfront": "4.210"
           },
@@ -32968,9 +33328,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.313",
+            "yrTerm3Convertible.partialUpfront": "1.340",
             "yrTerm1Standard.partialUpfront": "1.426",
-            "yrTerm1Standard.allUpfront": "1.397",
+            "yrTerm3Convertible.noUpfront": "1.568",
             "yrTerm3Standard.allUpfront": "0.991",
+            "yrTerm1Standard.allUpfront": "1.397",
             "yrTerm3Standard.partialUpfront": "1.055",
             "yrTerm1Standard.noUpfront": "1.668"
           },
@@ -32978,9 +33341,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.762",
+            "yrTerm3Convertible.partialUpfront": "0.777",
             "yrTerm1Standard.partialUpfront": "0.863",
-            "yrTerm1Standard.allUpfront": "0.847",
+            "yrTerm3Convertible.noUpfront": "0.903",
             "yrTerm3Standard.allUpfront": "0.560",
+            "yrTerm1Standard.allUpfront": "0.847",
             "yrTerm3Standard.partialUpfront": "0.595",
             "yrTerm1Standard.noUpfront": "1.003"
           },
@@ -33671,9 +34037,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.389",
+            "yrTerm3Convertible.partialUpfront": "2.437",
             "yrTerm1Standard.partialUpfront": "2.610",
-            "yrTerm1Standard.allUpfront": "2.558",
+            "yrTerm3Convertible.noUpfront": "2.853",
             "yrTerm3Standard.allUpfront": "2.091",
+            "yrTerm1Standard.allUpfront": "2.558",
             "yrTerm3Standard.partialUpfront": "2.224",
             "yrTerm1Standard.noUpfront": "3.054"
           },
@@ -33681,9 +34050,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "6.474",
+            "yrTerm3Convertible.partialUpfront": "6.606",
             "yrTerm1Standard.partialUpfront": "6.779",
-            "yrTerm1Standard.allUpfront": "6.644",
+            "yrTerm3Convertible.noUpfront": "7.731",
             "yrTerm3Standard.allUpfront": "5.652",
+            "yrTerm1Standard.allUpfront": "6.644",
             "yrTerm3Standard.partialUpfront": "6.013",
             "yrTerm1Standard.noUpfront": "7.932"
           },
@@ -33691,9 +34063,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.795",
+            "yrTerm3Convertible.partialUpfront": "1.831",
             "yrTerm1Standard.partialUpfront": "2.004",
-            "yrTerm1Standard.allUpfront": "1.964",
+            "yrTerm3Convertible.noUpfront": "2.144",
             "yrTerm3Standard.allUpfront": "1.353",
+            "yrTerm1Standard.allUpfront": "1.964",
             "yrTerm3Standard.partialUpfront": "1.439",
             "yrTerm1Standard.noUpfront": "2.345"
           },
@@ -33701,9 +34076,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.524",
+            "yrTerm3Convertible.partialUpfront": "1.555",
             "yrTerm1Standard.partialUpfront": "1.728",
-            "yrTerm1Standard.allUpfront": "1.694",
+            "yrTerm3Convertible.noUpfront": "1.805",
             "yrTerm3Standard.allUpfront": "1.120",
+            "yrTerm1Standard.allUpfront": "1.694",
             "yrTerm3Standard.partialUpfront": "1.191",
             "yrTerm1Standard.noUpfront": "2.006"
           },
@@ -34340,9 +34718,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.513",
+            "yrTerm3Convertible.partialUpfront": "0.524",
             "yrTerm1Standard.partialUpfront": "0.567",
-            "yrTerm1Standard.allUpfront": "0.556",
+            "yrTerm3Convertible.noUpfront": "0.613",
             "yrTerm3Standard.allUpfront": "0.377",
+            "yrTerm1Standard.allUpfront": "0.556",
             "yrTerm3Standard.partialUpfront": "0.401",
             "yrTerm1Standard.noUpfront": "0.664"
           },
@@ -34350,9 +34731,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.672",
+            "yrTerm3Convertible.partialUpfront": "0.686",
             "yrTerm1Standard.partialUpfront": "0.730",
-            "yrTerm1Standard.allUpfront": "0.715",
+            "yrTerm3Convertible.noUpfront": "0.803",
             "yrTerm3Standard.allUpfront": "0.530",
+            "yrTerm1Standard.allUpfront": "0.715",
             "yrTerm3Standard.partialUpfront": "0.563",
             "yrTerm1Standard.noUpfront": "0.854"
           },
@@ -34360,9 +34744,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.502",
+            "yrTerm3Convertible.partialUpfront": "0.512",
             "yrTerm1Standard.partialUpfront": "0.556",
-            "yrTerm1Standard.allUpfront": "0.544",
+            "yrTerm3Convertible.noUpfront": "0.599",
             "yrTerm3Standard.allUpfront": "0.367",
+            "yrTerm1Standard.allUpfront": "0.544",
             "yrTerm3Standard.partialUpfront": "0.391",
             "yrTerm1Standard.noUpfront": "0.650"
           },
@@ -34370,9 +34757,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.384",
+            "yrTerm3Convertible.partialUpfront": "0.392",
             "yrTerm1Standard.partialUpfront": "0.435",
-            "yrTerm1Standard.allUpfront": "0.427",
+            "yrTerm3Convertible.noUpfront": "0.458",
             "yrTerm3Standard.allUpfront": "0.254",
+            "yrTerm1Standard.allUpfront": "0.427",
             "yrTerm3Standard.partialUpfront": "0.270",
             "yrTerm1Standard.noUpfront": "0.509"
           },
@@ -35009,9 +35399,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.026",
+            "yrTerm3Convertible.partialUpfront": "1.047",
             "yrTerm1Standard.partialUpfront": "1.134",
-            "yrTerm1Standard.allUpfront": "1.111",
+            "yrTerm3Convertible.noUpfront": "1.224",
             "yrTerm3Standard.allUpfront": "0.753",
+            "yrTerm1Standard.allUpfront": "1.111",
             "yrTerm3Standard.partialUpfront": "0.802",
             "yrTerm1Standard.noUpfront": "1.326"
           },
@@ -35019,9 +35412,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.344",
+            "yrTerm3Convertible.partialUpfront": "1.372",
             "yrTerm1Standard.partialUpfront": "1.459",
-            "yrTerm1Standard.allUpfront": "1.430",
+            "yrTerm3Convertible.noUpfront": "1.605",
             "yrTerm3Standard.allUpfront": "1.059",
+            "yrTerm1Standard.allUpfront": "1.430",
             "yrTerm3Standard.partialUpfront": "1.127",
             "yrTerm1Standard.noUpfront": "1.707"
           },
@@ -35029,9 +35425,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.004",
+            "yrTerm3Convertible.partialUpfront": "1.025",
             "yrTerm1Standard.partialUpfront": "1.112",
-            "yrTerm1Standard.allUpfront": "1.090",
+            "yrTerm3Convertible.noUpfront": "1.199",
             "yrTerm3Standard.allUpfront": "0.733",
+            "yrTerm1Standard.allUpfront": "1.090",
             "yrTerm3Standard.partialUpfront": "0.780",
             "yrTerm1Standard.noUpfront": "1.301"
           },
@@ -35039,9 +35438,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.769",
+            "yrTerm3Convertible.partialUpfront": "0.784",
             "yrTerm1Standard.partialUpfront": "0.872",
-            "yrTerm1Standard.allUpfront": "0.854",
+            "yrTerm3Convertible.noUpfront": "0.916",
             "yrTerm3Standard.allUpfront": "0.507",
+            "yrTerm1Standard.allUpfront": "0.854",
             "yrTerm3Standard.partialUpfront": "0.539",
             "yrTerm1Standard.noUpfront": "1.018"
           },
@@ -35678,9 +36080,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.051",
+            "yrTerm3Convertible.partialUpfront": "2.093",
             "yrTerm1Standard.partialUpfront": "2.267",
-            "yrTerm1Standard.allUpfront": "2.222",
+            "yrTerm3Convertible.noUpfront": "2.449",
             "yrTerm3Standard.allUpfront": "1.506",
+            "yrTerm1Standard.allUpfront": "2.222",
             "yrTerm3Standard.partialUpfront": "1.603",
             "yrTerm1Standard.noUpfront": "2.653"
           },
@@ -35688,9 +36093,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.687",
+            "yrTerm3Convertible.partialUpfront": "2.741",
             "yrTerm1Standard.partialUpfront": "2.916",
-            "yrTerm1Standard.allUpfront": "2.857",
+            "yrTerm3Convertible.noUpfront": "3.207",
             "yrTerm3Standard.allUpfront": "2.117",
+            "yrTerm1Standard.allUpfront": "2.857",
             "yrTerm3Standard.partialUpfront": "2.252",
             "yrTerm1Standard.noUpfront": "3.411"
           },
@@ -35698,9 +36106,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.008",
+            "yrTerm3Convertible.partialUpfront": "2.049",
             "yrTerm1Standard.partialUpfront": "2.223",
-            "yrTerm1Standard.allUpfront": "2.179",
+            "yrTerm3Convertible.noUpfront": "2.397",
             "yrTerm3Standard.allUpfront": "1.466",
+            "yrTerm1Standard.allUpfront": "2.179",
             "yrTerm3Standard.partialUpfront": "1.560",
             "yrTerm1Standard.noUpfront": "2.601"
           },
@@ -35708,9 +36119,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.537",
+            "yrTerm3Convertible.partialUpfront": "1.568",
             "yrTerm1Standard.partialUpfront": "1.742",
-            "yrTerm1Standard.allUpfront": "1.708",
+            "yrTerm3Convertible.noUpfront": "1.832",
             "yrTerm3Standard.allUpfront": "1.014",
+            "yrTerm1Standard.allUpfront": "1.708",
             "yrTerm3Standard.partialUpfront": "1.079",
             "yrTerm1Standard.noUpfront": "2.036"
           },
@@ -36347,9 +36761,12 @@
       "us-gov-west-1": {
         "mswinSQLWeb": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "4.101",
+            "yrTerm3Convertible.partialUpfront": "4.185",
             "yrTerm1Standard.partialUpfront": "4.533",
-            "yrTerm1Standard.allUpfront": "4.443",
+            "yrTerm3Convertible.noUpfront": "4.897",
             "yrTerm3Standard.allUpfront": "3.012",
+            "yrTerm1Standard.allUpfront": "4.443",
             "yrTerm3Standard.partialUpfront": "3.204",
             "yrTerm1Standard.noUpfront": "5.304"
           },
@@ -36357,9 +36774,12 @@
         },
         "mswinSQL": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "5.373",
+            "yrTerm3Convertible.partialUpfront": "5.483",
             "yrTerm1Standard.partialUpfront": "5.831",
-            "yrTerm1Standard.allUpfront": "5.715",
+            "yrTerm3Convertible.noUpfront": "6.416",
             "yrTerm3Standard.allUpfront": "4.233",
+            "yrTerm1Standard.allUpfront": "5.715",
             "yrTerm3Standard.partialUpfront": "4.503",
             "yrTerm1Standard.noUpfront": "6.823"
           },
@@ -36367,9 +36787,12 @@
         },
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "4.015",
+            "yrTerm3Convertible.partialUpfront": "4.097",
             "yrTerm1Standard.partialUpfront": "4.446",
-            "yrTerm1Standard.allUpfront": "4.357",
+            "yrTerm3Convertible.noUpfront": "4.794",
             "yrTerm3Standard.allUpfront": "2.931",
+            "yrTerm1Standard.allUpfront": "4.357",
             "yrTerm3Standard.partialUpfront": "3.118",
             "yrTerm1Standard.noUpfront": "5.201"
           },
@@ -36377,9 +36800,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "3.074",
+            "yrTerm3Convertible.partialUpfront": "3.136",
             "yrTerm1Standard.partialUpfront": "3.485",
-            "yrTerm1Standard.allUpfront": "3.415",
+            "yrTerm3Convertible.noUpfront": "3.665",
             "yrTerm3Standard.allUpfront": "2.028",
+            "yrTerm1Standard.allUpfront": "3.415",
             "yrTerm3Standard.partialUpfront": "2.157",
             "yrTerm1Standard.noUpfront": "4.072"
           },
@@ -36836,9 +37262,12 @@
       "us-gov-west-1": {
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.515",
+            "yrTerm3Convertible.partialUpfront": "0.523",
             "yrTerm1Standard.partialUpfront": "0.564",
-            "yrTerm1Standard.allUpfront": "0.555",
+            "yrTerm3Convertible.noUpfront": "0.585",
             "yrTerm3Standard.allUpfront": "0.387",
+            "yrTerm1Standard.allUpfront": "0.555",
             "yrTerm3Standard.partialUpfront": "0.402",
             "yrTerm1Standard.noUpfront": "0.633"
           },
@@ -36846,9 +37275,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.365",
+            "yrTerm3Convertible.partialUpfront": "0.373",
             "yrTerm1Standard.partialUpfront": "0.414",
-            "yrTerm1Standard.allUpfront": "0.405",
+            "yrTerm3Convertible.noUpfront": "0.435",
             "yrTerm3Standard.allUpfront": "0.237",
+            "yrTerm1Standard.allUpfront": "0.405",
             "yrTerm3Standard.partialUpfront": "0.252",
             "yrTerm1Standard.noUpfront": "0.483"
           },
@@ -37255,9 +37687,12 @@
       "us-gov-west-1": {
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.027",
+            "yrTerm3Convertible.partialUpfront": "1.043",
             "yrTerm1Standard.partialUpfront": "1.126",
-            "yrTerm1Standard.allUpfront": "1.108",
+            "yrTerm3Convertible.noUpfront": "1.169",
             "yrTerm3Standard.allUpfront": "0.775",
+            "yrTerm1Standard.allUpfront": "1.108",
             "yrTerm3Standard.partialUpfront": "0.806",
             "yrTerm1Standard.noUpfront": "1.265"
           },
@@ -37265,9 +37700,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "0.727",
+            "yrTerm3Convertible.partialUpfront": "0.743",
             "yrTerm1Standard.partialUpfront": "0.826",
-            "yrTerm1Standard.allUpfront": "0.808",
+            "yrTerm3Convertible.noUpfront": "0.869",
             "yrTerm3Standard.allUpfront": "0.475",
+            "yrTerm1Standard.allUpfront": "0.808",
             "yrTerm3Standard.partialUpfront": "0.506",
             "yrTerm1Standard.noUpfront": "0.965"
           },
@@ -37674,9 +38112,12 @@
       "us-gov-west-1": {
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.056",
+            "yrTerm3Convertible.partialUpfront": "2.086",
             "yrTerm1Standard.partialUpfront": "2.251",
-            "yrTerm1Standard.allUpfront": "2.218",
+            "yrTerm3Convertible.noUpfront": "2.339",
             "yrTerm3Standard.allUpfront": "1.548",
+            "yrTerm1Standard.allUpfront": "2.218",
             "yrTerm3Standard.partialUpfront": "1.609",
             "yrTerm1Standard.noUpfront": "2.532"
           },
@@ -37684,9 +38125,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "1.456",
+            "yrTerm3Convertible.partialUpfront": "1.486",
             "yrTerm1Standard.partialUpfront": "1.651",
-            "yrTerm1Standard.allUpfront": "1.618",
+            "yrTerm3Convertible.noUpfront": "1.739",
             "yrTerm3Standard.allUpfront": "0.948",
+            "yrTerm1Standard.allUpfront": "1.618",
             "yrTerm3Standard.partialUpfront": "1.009",
             "yrTerm1Standard.noUpfront": "1.932"
           },
@@ -38093,9 +38537,12 @@
       "us-gov-west-1": {
         "mswin": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "4.262",
+            "yrTerm3Convertible.partialUpfront": "4.322",
             "yrTerm1Standard.partialUpfront": "4.652",
-            "yrTerm1Standard.allUpfront": "4.586",
+            "yrTerm3Convertible.noUpfront": "4.827",
             "yrTerm3Standard.allUpfront": "3.248",
+            "yrTerm1Standard.allUpfront": "4.586",
             "yrTerm3Standard.partialUpfront": "3.370",
             "yrTerm1Standard.noUpfront": "5.213"
           },
@@ -38103,9 +38550,12 @@
         },
         "linux": {
           "reserved": {
+            "yrTerm3Convertible.allUpfront": "2.912",
+            "yrTerm3Convertible.partialUpfront": "2.972",
             "yrTerm1Standard.partialUpfront": "3.302",
-            "yrTerm1Standard.allUpfront": "3.236",
+            "yrTerm3Convertible.noUpfront": "3.477",
             "yrTerm3Standard.allUpfront": "1.898",
+            "yrTerm1Standard.allUpfront": "3.236",
             "yrTerm3Standard.partialUpfront": "2.020",
             "yrTerm1Standard.noUpfront": "3.863"
           },
