@@ -4,9 +4,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Amazon EC2 Instance Comparison</title>
-    <link rel="stylesheet" href="/default.css" media="screen">
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" media="screen">
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="default.css" media="screen">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" media="screen">
+    <link rel="icon" type="image/png" href="favicon.png">
   </head>
 
   <body class="ec2instances">
@@ -68,7 +68,7 @@
     </script>
     <script type="text/javascript">
     try {
-      var pageTracker = _gat._getTracker("UA-4372467-3");
+      var pageTracker = _gat._getTracker("UA-6027826-4");
       pageTracker._trackPageview();
     } catch(err) {}
     </script>
