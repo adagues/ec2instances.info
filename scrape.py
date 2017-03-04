@@ -5,7 +5,6 @@ import re
 import json
 import locale
 
-urllib2.disable_warnings()
 
 # Following advice from https://stackoverflow.com/a/1779324/216138
 # The locale must be installed in the system, and it must be one where ',' is
