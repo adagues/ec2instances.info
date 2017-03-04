@@ -17,12 +17,15 @@ class Instance(object):
         self.vpc = None
         self.arch = ['x86_64']
         self.ECU = 0
+        self.base_performance = None
+        self.burst_minutes = None
         self.linux_virtualization_types = []
         self.ebs_throughput = 0
         self.ebs_iops = 0
         self.ebs_max_bandwidth = 0
         # self.hvm_only = False
         self.vpc_only = False
+        self.ipv6_support = False
         self.pretty_name = ''
 
     def to_dict(self):
@@ -32,6 +35,8 @@ class Instance(object):
                  arch=self.arch,
                  vCPU=self.vCPU,
                  ECU=self.ECU,
+                 base_performance=self.base_performance,
+                 burst_minutes=self.burst_minutes,
                  memory=self.memory,
                  ebs_optimized=self.ebs_optimized,
                  ebs_throughput=self.ebs_throughput,
@@ -43,7 +48,8 @@ class Instance(object):
                  vpc=self.vpc,
                  linux_virtualization_types=self.linux_virtualization_types,
                  generation=self.generation,
-                 vpc_only=self.vpc_only)
+                 vpc_only=self.vpc_only,
+                 ipv6_support=self.ipv6_support)
         if self.ebs_only:
             d['storage'] = None
         else:
@@ -101,6 +107,12 @@ def parse_instance(tr, inst2family):
     # https://github.com/powdahound/ec2instances.info/issues/199
     if i.instance_type == 'x1.16large':
         i.instance_type = 'x1.16xlarge'
+    # Correct typo on AWS site (temporary fix on 2017-02-23)
+    # https://github.com/powdahound/ec2instances.info/issues/227
+    if i.instance_type == 'i3.4xlxarge':
+        i.instance_type = 'i3.4xlarge'
+    if i.instance_type == 'i3.16large':
+        i.instance_type = 'i3.16xlarge'
     i.family = inst2family.get(i.instance_type, "Unknown")
     # Some t2 instances support 32-bit arch
     # http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html#resize-limitations
@@ -145,8 +157,17 @@ def _rindex_family(inst2family, details):
             i = i.strip()
             inst2family[i] = totext(cols[0])
 
+def ipv6_support(details, types):
+    rows = details.xpath('tbody/tr')[0:]
+    for r in rows:
+        cols = r.xpath('td')
+        if totext(cols[7]).lower() == 'yes':
+            family = totext(cols[0]).lower()+"."
+            for i in types:
+                if i.instance_type.startswith(family):
+                    i.ipv6_support = True
 
-def scrape_families():
+def scrape_instances():
     inst2family = dict()
     tree = etree.parse(urllib2.urlopen("http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html"),
                        etree.HTMLParser())
@@ -154,18 +175,13 @@ def scrape_families():
     hdrs = details.xpath('thead/tr')[0]
     if totext(hdrs[0]).lower() == 'instance family' and 'current generation' in totext(hdrs[1]).lower():
         _rindex_family(inst2family, details)
-
     details = tree.xpath('//div[@class="informaltable"]//table')[1]
     hdrs = details.xpath('thead/tr')[0]
     if totext(hdrs[0]).lower() == 'instance family' and 'previous generation' in totext(hdrs[1]).lower():
         _rindex_family(inst2family, details)
-
     assert len(inst2family) > 0, "Failed to find instance family info"
-    return inst2family
+    ipv6_details = tree.xpath('//div[@class="informaltable"]//table')[2]
 
-
-def scrape_instances():
-    inst2family = scrape_families()
     tree = etree.parse(urllib2.urlopen("http://aws.amazon.com/ec2/instance-types/"), etree.HTMLParser())
     details = tree.xpath('//table[count(tbody/tr[1]/td)=12]')[0]
     rows = details.xpath('tbody/tr')[1:]
@@ -173,12 +189,17 @@ def scrape_instances():
     current_gen = [parse_instance(r, inst2family) for r in rows]
 
     tree = etree.parse(urllib2.urlopen("http://aws.amazon.com/ec2/previous-generation/"), etree.HTMLParser())
-    details = tree.xpath('//table')[6]
+    details = tree.xpath('//table')[7]
     rows = details.xpath('tbody/tr')[1:]
     assert len(rows) > 0, "Didn't find any table rows."
     prev_gen = [parse_prev_generation_instance(r) for r in rows]
 
-    return prev_gen + current_gen
+    all_gen = prev_gen + current_gen
+    hdrs = ipv6_details.xpath('thead/tr')[0]
+    if totext(hdrs[0]).lower() == '' and 'ipv6 support' in totext(hdrs[7]).lower():
+        ipv6_support(ipv6_details, all_gen)
+
+    return all_gen
 
 
 def transform_size(size):
@@ -272,6 +293,22 @@ def add_reserved_pricing(imap, data, platform):
 
             inst.pricing[region][platform]['reserved'] = termPricing
 
+def add_ebs_pricing(imap, data):
+    for region_spec in data['config']['regions']:
+        region = transform_region(region_spec['region'])
+        for t_spec in region_spec['instanceTypes']:
+            typename = t_spec['type']
+            for i_spec in t_spec['sizes']:
+                i_type = i_spec['size']
+                if i_type not in imap:
+                    print("ERROR: Got EBS pricing data for unknown instance type: {}".format(i_type))
+                    continue
+                inst = imap[i_type]
+                inst.pricing.setdefault(region, {})
+                # print "%s/%s" % (region, i_type)
+
+                for col in i_spec['valueColumns']:
+                    inst.pricing[region]['ebs'] = col['prices']['USD']
 
 def add_pricing_info(instances):
     pricing_modes = ['ri', 'od']
@@ -309,6 +346,11 @@ def add_pricing_info(instances):
             pricing = fetch_data(pricing_url)
             add_pricing(by_type, pricing, platform, pricing_mode)
 
+    # EBS cost surcharge as per https://aws.amazon.com/ec2/pricing/on-demand/#EBS-Optimized_Instances
+    ebs_pricing_url = 'https://a0.awsstatic.com/pricing/1/ec2/pricing-ebs-optimized-instances.min.js'
+    pricing = fetch_data(ebs_pricing_url)
+    add_ebs_pricing(by_type, pricing)
+
 
 def fetch_data(url):
     content = urllib2.urlopen(url).read()
@@ -334,6 +376,10 @@ def add_eni_info(instances):
         instance_type = etree.tostring(r[0], method='text').strip()
         max_enis = locale.atoi(etree.tostring(r[1], method='text'))
         ip_per_eni = locale.atoi(etree.tostring(r[2], method='text'))
+        # Correct typo on AWS site (temporary fix on 2017-02-23)
+        # https://github.com/powdahound/ec2instances.info/issues/227
+        if instance_type == 'i316xlarge':
+            instance_type = 'i3.16xlarge'
         if instance_type not in by_type:
             print "Unknown instance type: " + instance_type
             continue
@@ -416,11 +462,27 @@ def add_linux_ami_info(instances):
 def add_vpconly_detail(instances):
     # specific instances can be lanuched in VPC only
     # http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#vpc-only-instance-types
-    vpc_only_families = ('c4', 'm4', 'p2', 'r4', 't2', 'x1')
+    vpc_only_families = ('c4', 'i3', 'm4', 'p2', 'r4', 't2', 'x1')
     for i in instances:
         for family in vpc_only_families:
             if i.instance_type.startswith(family):
                 i.vpc_only = True
+
+
+def add_t2_credits(instances):
+    tree = etree.parse(urllib2.urlopen("http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html"),
+                       etree.HTMLParser())
+    table = tree.xpath('//div[@class="informaltable"]//table')[0]
+    rows = table.xpath('.//tr[./td]')
+    assert len(rows) > 0, "Failed to find T2 CPU credit info"
+
+    by_type = {i.instance_type: i for i in instances}
+
+    for r in rows:
+        inst = by_type[totext(r[0])]
+        creds_per_hour = locale.atof(totext(r[2]))
+        inst.base_performance = creds_per_hour / 60
+        inst.burst_minutes = creds_per_hour * 24 / inst.vCPU
 
 
 def add_pretty_names(instances):
@@ -482,6 +544,7 @@ def scrape(data_file):
     add_linux_ami_info(all_instances)
     print "Adding additional details..."
     add_vpconly_detail(all_instances)
+    add_t2_credits(all_instances)
     add_pretty_names(all_instances)
 
     with open(data_file, 'w') as f:

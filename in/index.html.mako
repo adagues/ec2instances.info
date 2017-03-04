@@ -118,6 +118,7 @@
           </th>
           <th class="enhanced-networking">Enhanced Networking</th>
           <th class="vpc-only">VPC Only</th>
+          <th class="ipv6-support">IPv6 Support</th>
           <th class="linux-virtualization">Linux Virtualization</th>
 
           <th class="cost-ondemand cost-ondemand-linux">Linux On Demand cost</th>
@@ -136,6 +137,9 @@
           <th class="cost-reserved cost-reserved-mswinSQL">
             <abbr title='Reserved costs are an "effective" hourly rate, calculated by hourly rate + (upfront cost / hours in reserved term).  Actual hourly rates may vary.'>Windows SQL Std Reserved cost</abbr>
           </th>
+          <th class="cost-ebs-optimized">
+            <abbr title='Some instance types are charged additionally when configured for optimized EBS usage'>EBS Optimized surcharge</abbr>
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -146,7 +150,16 @@
           <td class="memory"><span sort="${inst['memory']}">${inst['memory']} GB</span></td>
           <td class="computeunits">
             % if inst['ECU'] == 'variable':
-            <span sort="0"><a href="http://aws.amazon.com/ec2/instance-types/#burst" target="_blank">Burstable</a></span>
+              % if inst['base_performance']:
+              <span sort="${inst['base_performance']}">
+                <abbr title="For T2 instances, the 100% unit represents a High Frequency Intel Xeon Processors with Turbo up to 3.3GHz.">
+                <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html" target="_blank">Base performance:
+                ${"%g" % (inst['base_performance'] * 100,)}%
+                </a></abbr>
+              </span>
+              % else:
+              <span sort="0"><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts_micro_instances.html" target="_blank">Burstable</a></span>
+              % endif
             % else:
             <span sort="${inst['ECU']}">${"%g" % (inst['ECU'],)} units</span>
             % endif
@@ -154,6 +167,14 @@
           <td class="vcpus">
             <span sort="${inst['vCPU']}">
               ${inst['vCPU']} vCPUs
+                % if inst['burst_minutes']:
+                <abbr title="Given that a CPU Credit represents the performance of a full CPU core for one minute, the maximum credit balance is converted to CPU burst minutes per day by dividing it by the number of vCPUs.">
+                <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html" target="_blank">
+                for a
+                ${"%gh %gm" % divmod(inst['burst_minutes'], 60)}
+                burst
+                </a></abbr>
+                % endif
             </span>
           </td>
           <td class="ecu-per-vcpu">
@@ -222,6 +243,9 @@
           <td class="vpc-only">
             ${'Yes' if inst['vpc_only'] else 'No'}
           </td>
+          <td class="ipv6-support">
+            ${'Yes' if inst['ipv6_support'] else 'No'}
+          </td>
           <td class="linux-virtualization">
             % if inst['linux_virtualization_types']:
             ${', '.join(inst['linux_virtualization_types'])}
@@ -252,6 +276,19 @@
             % endif
           </td>
           % endfor
+          <td class="cost-ebs-optimized" data-pricing='${json.dumps({r:p.get('ebs', {}) for r,p in inst['pricing'].iteritems()}) | h}'>
+           % if inst['ebs_max_bandwidth']:
+              % if inst['pricing'].get('us-east-1', {}).get('ebs', 'N/A') != "N/A":
+                <span sort="${inst['pricing']['us-east-1']['ebs']}">
+                  $${inst['pricing']['us-east-1']['ebs']} hourly
+                </span>
+              % else:
+                <span sort="0">0</span>
+              % endif
+            % else:
+              <span sort="0">N/A</span>
+            % endif
+          </td>
         </tr>
 % endfor
       </tbody>
